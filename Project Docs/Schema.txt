@@ -25,7 +25,7 @@ CREATE TABLE bank.accounts(
     user_id integer NOT NULL,
     balance integer DEFAULT 0 NOT NULL,
     account_type text COLLATE pg_catalog."default",
-    CONSTRAINT account_number_pkey PRIMARY KEY (account_number)
+    CONSTRAINT account_number_pkey PRIMARY KEY (account_number),
     CONSTRAINT account_user_id_fk FOREIGN KEY (user_id) 
     	REFERENCES bank.users (user_id) MATCH SIMPLE
     	ON UPDATE NO ACTION
@@ -40,7 +40,7 @@ CREATE TABLE bank.budget(
     balance integer DEFAULT 0 NOT NULL,
     budget_limit integer DEFAULT 500 NOT NULL,
     budget_interval integer DEFAULT 30 NOT NULL,
-    CONSTRAINT budget_id_pkey PRIMARY KEY (budget_id)
+    CONSTRAINT budget_id_pkey PRIMARY KEY (budget_id),
     CONSTRAINT account_number_fk FOREIGN KEY (account_number)
     	REFERENCES bank.accounts (account_number) MATCH SIMPLE
     	ON UPDATE NO ACTION
