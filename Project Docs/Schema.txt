@@ -13,7 +13,7 @@ CREATE TABLE bank.users(
     )
     TABLESPACE pg_default;
     
-CREATE TABLE bank.transaction_catergory(
+CREATE TABLE bank.transaction_category(
 	category_id integer NOT NULL,
     name text COLLATE pg_catalog."default",
     CONSTRAINT category_pkey PRIMARY KEY (category_id)
@@ -62,7 +62,7 @@ CREATE TABLE bank.transactions(
     	ON UPDATE NO ACTION
     	ON DELETE NO ACTION,
     CONSTRAINT category_id_fk FOREIGN KEY (category_id)
-        REFERENCES bank.category (category_id) MATCH SIMPLE
+        REFERENCES bank.transaction_category (category_id) MATCH SIMPLE
     	ON UPDATE NO ACTION
     	ON DELETE NO ACTION
     )   
