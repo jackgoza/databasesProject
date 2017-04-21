@@ -65,4 +65,5 @@ CREATE TABLE bank.transactions(
         REFERENCES bank.category (category_id) MATCH SIMPLE
     	ON UPDATE NO ACTION
     	ON DELETE NO ACTION
-)   
+    )   
+    TABLESPACE pg_default;
