@@ -1,0 +1,110 @@
+﻿Account Type,AcctNumber,TransDate,TransType,7.00,Description ,CategoryID
+Checking,211111110,11/02/16,DR,$2.00,Starbucks,2
+Checking,211111110,11/04/16,CR,$800.00,Payroll,7
+Checking,211111110,11/07/16,DR,$8.00,Chipotle,2
+Checking,211111110,11/09/16,DR,$10.00,ATM,6
+Checking,211111110,11/10/16,DR,$32.00,Hoolihans,2
+Checking,211111110,11/10/16,DR,$100.00,KCPL,1
+Checking,211111110,11/10/16,DR,$190.00,Google Fiber,1
+Checking,211111110,11/15/16,DR,$9.99,Netflix,5
+Checking,211111110,11/15/16,DR,$350.00,Rent,1
+Checking,211111110,11/16/16,DR,$2.00,Starbucks,2
+Checking,211111110,11/18/16,CR,$750.00,Payroll,7
+Checking,211111110,11/18/16,DR,$620.00,Commerce Bank Credit Card payment,1
+Checking,211111110,11/19/16,DR,$150.00,McFaddens,2
+Checking,211111110,11/22/16,DR,$100.00,Price Chopper,2
+Checking,211111110,11/23/16,CR,$50.00,Check from friend,7
+Checking,211111110,12/02/16,CR,$800.00,Payroll,7
+Checking,211111110,12/02/16,DR,$9.00,Hyvee,2
+Checking,211111110,12/12/16,DR,$14.00,McFaddens,2
+Checking,211111110,12/13/16,DR,$32.00,Target,4
+Checking,211111110,12/13/16,DR,$100.00,KCPL,1
+Checking,211111110,12/16/16,CR,$750.00,Payroll,7
+Checking,211111110,12/18/16,DR,$190.00,Google Fiber,1
+Checking,211111110,12/18/16,DR,$9.99,Netflix,5
+Checking,211111110,12/18/16,DR,$350.00,Rent,1
+Checking,211111110,12/22/16,DR,$6.50,Neo's,2
+Checking,211111110,12/22/16,DR,$230.00,Commerce Bank Credit Card payment,1
+Checking,211111110,12/22/16,DR,$100.00,Best Buy,4
+Checking,211111110,12/22/16,DR,$300.00,Pottery Barn,4
+Checking,211111110,12/26/16,DR,$23.00,The Loft,5
+Checking,211111110,12/26/16,DR,$45.00,Dave and Busters,5
+Checking,211111110,12/26/16,DR,$35.00,Bowling,5
+Checking,211111110,12/30/16,CR,$800.00,Payroll,7
+Checking,211111110,12/31/16,DR,$210.00,McFaddens,2
+Checking,211111110,12/31/16,DR,$18.00,Taco Bell,2
+Checking,211111110,12/31/16,DR,$45.00,QuikTrip,3
+Checking,211111110,01/02/17,DR,$130.00,KCPL,1
+Checking,211111110,01/02/17,DR,$185.00,Google Fiber,1
+Checking,211111110,01/04/17,DR,$7.99,Netflix,5
+Checking,211111110,01/04/17,DR,$56.00,Price Chopper,2
+Checking,211111110,01/06/17,DR,$43.00,Price Chopper,2
+Checking,211111110,01/07/17,DR,$98.00,Target,4
+Checking,211111110,01/09/17,DR,$13.00,Jose Peppers,2
+Checking,211111110,01/10/17,DR,$9.00,Starbucks,2
+Checking,211111110,01/12/17,DR,$350.00,Rent,1
+Checking,211111110,01/12/17,DR,$3.50,Redbox,5
+Checking,211111110,01/12/17,DR,$301.00,Bank of America Credit Card payment,1
+Checking,211111110,01/13/17,CR,$730.00,Payroll,7
+Checking,211111110,01/14/17,DR,$232.68,Target,4
+Checking,211111110,01/14/17,DR,$18.50,Best Buy,4
+Checking,211111110,01/16/17,DR,$120.00,Nationwide,1
+Checking,211111110,01/17/17,DR,$50.00,KC Police - Speeding Ticket,6
+Checking,211111110,01/17/17,DR,$50.00,Uber,3
+Checking,211111110,01/17/17,DR,$9.20,Manny's,2
+Checking,211111110,01/19/17,DR,$24.75,Toys R Us,5
+Checking,211111110,01/19/17,DR,$3.50,Scooters,2
+Checking,211111110,01/20/17,DR,$36.00,QuikTrip,3
+Checking,211111110,01/20/17,DR,$32.00,Price Chopper,2
+Checking,211111110,01/21/17,DR,$48.12,Home Depot,4
+Checking,211111110,01/22/17,DR,$4.20,Burger King,2
+Checking,211111110,01/22/17,DR,$45.00,Jiffy Lube,3
+Checking,211111110,01/22/17,DR,$25.00,Doctor visit,1
+Checking,211111110,01/23/17,DR,$36.00,CVS,6
+Checking,211111110,01/23/17,DR,$29.00,Price Chopper,2
+Checking,211111110,01/23/17,DR,$200.00,Transfer to Savings,8
+Checking,211111110,01/23/17,CR,$150.00,Christmas Check from Grandma,7
+Checking,211111110,01/23/17,DR,$250.00,Student loans,1
+Checking,211111110,01/23/17,DR,$75.00,Ford Service,3
+Checking,211111110,01/27/17,DR,$36.00,Hallmark,6
+Checking,211111110,01/27/17,DR,$22.00,CVS,6
+Checking,211111110,01/27/17,CR,$810.00,Payroll,7
+Checking,211111110,01/30/17,DR,$180.00,Pottery Barn,4
+Checking,211111110,01/30/17,DR,$46.00,Cheesecake Factory,2
+Checking,211111110,01/30/17,DR,$8.00,Starbucks,2
+Credit Card,3111345029309200,11/30/16,DR,$4.60,McDonalds,2
+Credit Card,3111345029309200,12/02/16,DR,$23.45,Target,4
+Credit Card,3111345029309200,12/02/16,DR,$40.00,Michaels,4
+Credit Card,3111345029309200,12/06/16,DR,$6.70,Hyvee,2
+Credit Card,3111345029309200,12/06/16,DR,$8.90,Panda Express,2
+Credit Card,3111345029309200,12/15/16,DR,$12.30,Chipotle,2
+Credit Card,3111345029309200,12/16/16,DR,$7.60,CVS,6
+Credit Card,3111345029309200,12/16/16,DR,$6.50,Bolings,2
+Credit Card,3111345029309200,12/28/16,DR,$5.40,Taco Bell,2
+Credit Card,3111345029309200,12/28/16,DR,$23.00,Margaritas,2
+Credit Card,3111345029309200,12/29/16,DR,$10.00,Hoolihans,2
+Credit Card,3111345029309200,12/29/16,DR,$12.35,Gordon Biersch,2
+Credit Card,3111345029309200,01/05/17,DR,$11.34,Forever 21,5
+Credit Card,3111345029309200,01/05/17,DR,$16.34,Lids,5
+Credit Card,3111345029309200,01/05/17,DR,$8.93,Starbucks,2
+Credit Card,3111345029309200,01/05/17,DR,$7.45,Dairy Queen,2
+Credit Card,3111345029309200,01/06/17,DR,$9.12,Mini Golf,5
+Credit Card,3111345029309200,01/17/17,DR,$16.45,Home Depot,4
+Credit Card,3111345029309200,01/17/17,DR,$17.09,Walmart ,4
+Credit Card,3111345029309200,01/18/17,DR,$10.00,Quick Trip,3
+Credit Card,3111345029309200,01/18/17,DR,$34.00,Quick Trip,3
+Credit Card,3111345029309200,01/19/17,DR,$12.43,Wings Café,2
+Credit Card,3111345029309200,01/20/17,DR,$9.00,Chipotle,2
+Credit Card,3111345029309200,01/23/17,DR,$43.78,Bristol,2
+Credit Card,3111345029309200,01/24/17,DR,$67.00,Tanners,2
+Credit Card,3111345029309200,01/24/17,DR,$12.45,Kwik Shop,3
+Credit Card,3111345029309200,01/15/17,DR,$8.00,Burger King,2
+Credit Card,3111345029309200,01/26/17,DR,$5.00,Dollar Store,6
+Credit Card,3111345029309200,01/27/17,DR,$4.56,Quick Trip,3
+Savings,3011111130,11/07/16,CR,$100.00,Refund check ,7
+Savings,3011111130,11/08/17,CR,$150.00,Payroll,7
+Savings,3011111130,11/30/16,CR,$0.02,Interest,7
+Savings,3011111130,12/16/16,CR,$150.00,Payroll,7
+Savings,3011111130,12/18/17,DR,$492.00,Property taxes,1
+Savings,3011111130,12/31/16,CR,$0.04,Interest,7
+Savings,3011111130,01/13/17,CR,$150.00,Payroll,7

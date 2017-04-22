@@ -1,0 +1,169 @@
+﻿Account Type,AcctNumber,TransDate,TransType,7.00,Description,CategoryID
+Checking,411111111,11/02/16,DR,$200.00,Verizon,1
+Checking,411111111,11/02/16,DR,$18.24,Panda Express,2
+Checking,411111111,11/02/16,DR,$64.03,CVS,6
+Checking,411111111,11/02/16,DR,$122.08,Maurices,6
+Checking,411111111,11/02/16,DR,$26.11,QuikTrip,3
+Checking,411111111,11/04/16,DR,$24.69,QuikTrip,3
+Checking,411111111,11/07/16,DR,$14.47,KFC,2
+Checking,411111111,11/07/16,DR,$9.00,Car wash,3
+Checking,411111111,11/07/16,DR,$38.08,Dollar General,6
+Checking,411111111,11/07/16,DR,$75.00,Price Chopper,2
+Checking,411111111,11/08/16,DR,$85.25,Bank of America Credit Card Payment,1
+Checking,411111111,11/09/16,DR,$125.00,Doctor,1
+Checking,411111111,11/09/16,DR,$35.80,QuikTrip,3
+Checking,411111111,11/09/16,DR,$24.40,Red Robin,2
+Checking,411111111,11/14/16,DR,$45.00,Doctor,1
+Checking,411111111,11/14/16,DR,$10.65,Starbucks,2
+Checking,411111111,11/15/16,CR,"$2,000.00",Payroll,7
+Checking,411111111,11/15/16,DR,$139.72,AT&T,1
+Checking,411111111,11/16/16,DR,$200.00,Transfer to Savings,6
+Checking,411111111,11/16/16,DR,$200.00,Transfer to another bank,6
+Checking,411111111,11/16/16,DR,$25.00,Best Buy,4
+Checking,411111111,11/16/16,DR,$25.00,Target,4
+Checking,411111111,11/16/16,DR,$25.00,Walmart,4
+Checking,411111111,11/16/16,DR,$25.00,Amazon,5
+Checking,411111111,11/16/16,DR,$100.00,KCPL,1
+Checking,411111111,11/17/16,DR,$23.55,Bristol,2
+Checking,411111111,11/18/16,DR,$80.00,CVS,6
+Checking,411111111,11/18/16,DR,$300.00,Rent,1
+Checking,411111111,11/18/16,DR,$125.00,Airline ticket,6
+Checking,411111111,11/18/16,DR,$97.69,Maurices,5
+Checking,411111111,11/21/16,DR,$41.04,Price Chopper,2
+Checking,411111111,11/21/16,DR,$86.00,Home Depot,4
+Checking,411111111,11/21/16,DR,$63.55,Bristol,2
+Checking,411111111,11/21/16,DR,$494.08,Nebraska Furniture Mart,4
+Checking,411111111,11/21/16,DR,$328.43,State Farm,1
+Checking,411111111,11/22/16,DR,$164.21,Walmart,4
+Checking,411111111,11/23/16,DR,$100.00,Doctor,1
+Checking,411111111,11/23/16,DR,$32.23,Walmart,4
+Checking,411111111,11/25/16,DR,$30.00,ATM,6
+Checking,411111111,11/25/16,DR,$21.52,QuikTrip,3
+Checking,411111111,11/28/16,DR,$72.21,Price Chopper,2
+Checking,411111111,11/28/16,DR,$88.25,Hobby Lobby,5
+Checking,411111111,11/28/16,DR,$42.51,Walmart,4
+Checking,411111111,11/29/16,DR,$100.00,Transfer to Savings,8
+Checking,411111111,11/29/16,DR,$100.00,Check to sister,6
+Checking,411111111,11/29/16,DR,$36.00,Brew Top,2
+Checking,411111111,11/30/16,CR,"$2,000.00",Payroll,7
+Checking,411111111,11/30/16,DR,$300.00,Transfer to Savings,8
+Checking,411111111,11/30/16,DR,$157.99,Verizon,1
+Checking,411111111,11/30/16,DR,$100.00,AT&T,1
+Checking,411111111,11/30/16,DR,$100.00,KCPL,1
+Checking,411111111,11/30/16,DR,$4.00,Starbucks,2
+Checking,411111111,12/01/16,DR,$80.68,Walmart,4
+Checking,411111111,12/02/16,CR,$600.00,Check from grandma,7
+Checking,411111111,12/02/16,DR,$100.00,Transfer to Savings,8
+Checking,411111111,12/02/16,DR,$138.30,Petsmart,6
+Checking,411111111,12/02/16,DR,$40.00,ATM,6
+Checking,411111111,12/05/16,DR,$110.00,Lucky's,2
+Checking,411111111,12/05/16,DR,$24.53,Denny's  ,2
+Checking,411111111,12/06/16,DR,$150.00,ATM,6
+Checking,411111111,12/07/16,DR,$19.27,QuikTrip,3
+Checking,411111111,12/09/16,DR,$13.90,Starbucks,2
+Checking,411111111,12/09/16,DR,$55.45,Sears,4
+Checking,411111111,12/12/16,DR,$50.00,Transfer to Savings,8
+Checking,411111111,12/12/16,DR,$20.78,Jiffy Lube,3
+Checking,411111111,12/12/16,DR,$57.65,O'Charley's,2
+Checking,411111111,12/12/16,DR,$145.73,Famous Footwear,5
+Checking,411111111,12/12/16,DR,$86.67,Target,4
+Checking,411111111,12/12/16,DR,$48.00,Pizza Hut ,2
+Checking,411111111,12/12/16,DR,$191.86,Walmart,4
+Checking,411111111,12/13/16,DR,$22.78,QuikTrip,3
+Checking,411111111,12/15/16,CR,"$2,000.00",Payday,7
+Checking,411111111,12/15/16,CR,"$1,500.00",Bonus,7
+Checking,411111111,12/16/16,DR,$300.00,Transfer to Savings,8
+Checking,411111111,12/16/16,DR,$25.00,Best Buy,4
+Checking,411111111,12/16/16,DR,$25.00,Target,4
+Checking,411111111,12/16/16,DR,$25.00,Walmart,4
+Checking,411111111,12/16/16,DR,$25.00,CVS,6
+Checking,411111111,12/16/16,DR,$200.00,ATM,6
+Checking,411111111,12/16/16,DR,$150.00,Amazon,5
+Checking,411111111,12/16/16,DR,$142.87,Verizon,1
+Checking,411111111,12/16/16,DR,$133.35,Toys R Us,5
+Checking,411111111,12/16/16,DR,$100.00,Maurices,5
+Checking,411111111,12/19/16,DR,$13.98,Panera Bread,2
+Checking,411111111,12/19/16,DR,$57.00,Buffalo Wild Wings,2
+Checking,411111111,12/19/16,DR,$205.47,Walmart,4
+Checking,411111111,12/19/16,DR,$156.27,Walmart,4
+Checking,411111111,12/20/16,DR,$10.84,Joy Wok,2
+Checking,411111111,12/21/16,DR,$125.06,Taxes,1
+Checking,411111111,12/21/16,DR,$30.00,Doctor,1
+Checking,411111111,12/21/16,DR,$328.43,State Farm,1
+Checking,411111111,12/23/16,DR,$350.00,Rent,1
+Checking,411111111,12/23/16,DR,$159.00,KCPL,1
+Checking,411111111,12/27/16,DR,$24.52,Deposit Eleven,3
+Checking,411111111,12/27/16,DR,$27.77,Hyvee,2
+Checking,411111111,12/29/16,DR,$128.56,Price Chopper,2
+Checking,411111111,12/29/16,DR,$150.00,ATM,6
+Checking,411111111,12/30/16,CR,"$2,000.00",Payday,7
+Checking,411111111,12/30/16,DR,$2.95,Red box,5
+Checking,411111111,12/30/16,DR,$41.18,Walmart,4
+Checking,411111111,12/30/16,DR,$109.35,Walmart,4
+Checking,411111111,12/30/16,DR,$217.00,BoA Credit Card payment,1
+Checking,411111111,12/30/16,DR,$100.00,Transfer to Savings,8
+Checking,411111111,12/30/16,DR,$5.95,Maurices,5
+Checking,411111111,01/03/17,DR,$40.00,ATM,6
+Checking,411111111,01/03/17,DR,$70.00,Dave and Busters,5
+Checking,411111111,01/03/17,DR,$47.06,Pizza Ranch,2
+Checking,411111111,01/03/17,DR,$163.10,Walmart,4
+Checking,411111111,01/04/17,DR,$22.01,Olive Garden,2
+Checking,411111111,01/04/17,DR,$34.86,QuikTrip,3
+Checking,411111111,01/05/17,DR,$150.00,Check to sister,6
+Checking,411111111,01/05/17,DR,$10.00,Doctor,1
+Checking,411111111,01/05/17,DR,$10.00,MOD Pizza,2
+Checking,411111111,01/05/17,DR,$10.00,Best Buy,4
+Checking,411111111,01/05/17,DR,$10.00,Target,4
+Checking,411111111,01/09/17,DR,$23.52,O'Reilly's,3
+Checking,411111111,01/09/17,DR,$118.25,Walmart,4
+Checking,411111111,01/12/17,DR,$25.00,QuikTrip,3
+Checking,411111111,01/12/17,DR,$45.74,Walmart,4
+Checking,411111111,01/13/17,CR,"$2,000.00",Payroll,7
+Checking,411111111,01/13/17,DR,$50.00,Transfer to Savings,8
+Checking,411111111,01/13/17,DR,$136.89,Verizon,1
+Checking,411111111,01/17/17,DR,$100.00,Transfer to Savings,8
+Checking,411111111,01/17/17,DR,$25.00,Bravos,2
+Checking,411111111,01/17/17,DR,$25.00,Starbucks gift card,2
+Checking,411111111,01/17/17,DR,$25.00,ATM,6
+Checking,411111111,01/17/17,DR,$25.00,Check to brother,6
+Checking,411111111,01/17/17,DR,$24.22,Laser Rock,5
+Checking,411111111,01/17/17,DR,$102.87,Walmart,4
+Checking,411111111,01/17/17,DR,$57.32,Tanners,2
+Checking,411111111,01/17/17,DR,$36.00,Price Chopper,2
+Checking,411111111,01/18/17,DR,$54.00,Bristol,2
+Checking,411111111,01/19/17,DR,$328.43,State Farm,1
+Checking,411111111,01/19/17,DR,$5.00,Payment to friend,6
+Checking,411111111,01/20/17,DR,$26.49,QuikTrip,3
+Checking,411111111,01/23/17,DR,$5.00,KFC,2
+Checking,411111111,01/23/17,DR,$55.00,Doctor,1
+Checking,411111111,01/23/17,DR,$172.25,Best Buy,4
+Checking,411111111,01/23/17,DR,$52.00,Pizza Hut ,2
+Checking,411111111,01/23/17,DR,$60.38,Red Lobster,2
+Checking,411111111,01/23/17,DR,$58.55,QuikTrip,3
+Checking,411111111,01/25/17,DR,$72.52,Walmart,4
+Checking,411111111,01/26/17,DR,$64.00,Home Depot,4
+Checking,411111111,01/27/17,DR,"$2,000.00",Payday,7
+Checking,411111111,01/27/17,DR,$150.00,Transfer to Savings,8
+Checking,411111111,01/27/17,CR,$200.00,Check from mom,6
+Checking,411111111,01/27/17,CR,$75.00,Cash Deposit,7
+Checking,411111111,01/27/17,DR,$29.10,QuikTrip,3
+Checking,411111111,01/27/17,DR,$100.00,Transfer to Savings,8
+Checking,411111111,01/27/17,DR,$150.00,Nebraska Furniture Mart,4
+Savings,8222222228,11/01/16,CR,$25.00,Cash Deposit,7
+Savings,8222222228,11/16/16,DR,$200.00,Transfer from savings,8
+Savings,8222222228,11/16/16,CR,$25.00,Cash Deposit,7
+Savings,8222222228,11/29/16,DR,$100.00,Transfer from savings,8
+Savings,8222222228,11/30/16,DR,$300.00,Transfer from savings,8
+Savings,8222222228,11/30/16,CR,$0.02,Interest,7
+Savings,8222222228,12/02/16,DR,$100.00,Transfer from savings,8
+Savings,8222222228,12/12/16,DR,$50.00,Transfer from savings,8
+Savings,8222222228,12/16/16,DR,$300.00,Transfer from savings,8
+Savings,8222222228,12/30/16,DR,$100.00,Transfer from savings,8
+Savings,8222222228,12/30/16,CR,$0.02,Interest,7
+Savings,8222222228,12/31/16,DR,-$379.00,O'Reilly's,3
+Savings,8222222228,01/05/17,CR,$10.00,Check Deposit,7
+Savings,8222222228,01/13/17,DR,$50.00,Transfer from savings,8
+Savings,8222222228,01/17/17,DR,$100.00,Transfer from savings,8
+Savings,8222222228,01/27/17,DR,$150.00,Transfer from savings,8
+Savings,8222222228,01/27/17,CR,$0.02,Interest,7
+Savings,8222222228,01/27/17,DR,$100.00,Transfer from savings,8
