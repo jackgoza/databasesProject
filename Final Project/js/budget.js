@@ -1,6 +1,7 @@
 ﻿var desktopModeToggle = false;
 
 window.onload = function () {
+    
     var width = document.documentElement.clientWidth;
     respondToSize(width);
     displayHistogram();
@@ -75,9 +76,13 @@ document.getElementById('budget').onclick = function () {
 }
 
 
+
 document.getElementById('wallet').onclick = function () {
     window.location.href = 'Wallet.aspx';
 }
+
+
+
 
 
 document.getElementById('summary_m').onclick = function () {
@@ -94,9 +99,7 @@ document.getElementById('budget_m').onclick = function () {
     }
 }
 
-document.getElementById('goals_m').onclick = function () {
-    window.location.href = 'Goals.aspx';
-}
+
 
 document.getElementById('wallet_m').onclick = function () {
     window.location.href = 'Wallet.aspx';
@@ -150,7 +153,7 @@ function displayHistogram() {
             type: 'bar',
             name: 'Budget Limit',
             marker: {
-                color: 'rgb(49,130,189)',
+                color: 'rgb(0,171,117)',
                 opacity: 0.7,
             }
         };
@@ -160,7 +163,7 @@ function displayHistogram() {
             type: 'bar',
             name: 'Amount Spent',
             marker: {
-                color: 'rgb(204,204,204)',
+                color: 'rgb(153,50,204)',
                 opacity: 0.5
             }
         };

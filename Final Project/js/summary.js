@@ -1,9 +1,13 @@
 ﻿var desktopModeToggle = false;
 
 window.onload = function () {
+    
     var width = document.documentElement.clientWidth;
+   
     respondToSize(width);
+    
     get_pieData();
+    
 }
 
 window.onresize = function () {
@@ -32,6 +36,15 @@ desktopMode.onclick = function () {
         desktopMode.setAttribute('style', 'color: #00ab75;');
     }
 }
+
+var gotoBudget = document.getElementById('gotoBudgetBtn');
+var gotoGoals = document.getElementById('gotoGoalsBtn');
+
+gotoBudget.onclick = function () {
+    window.location.href = 'Budget.aspx';
+}
+
+
 
 function respondToSize(screenWidth) {
 
@@ -106,17 +119,7 @@ document.getElementById('wallet_m').onclick = function () {
 
 
 
-function draw_chart() {
 
-
-    var datapie = get_pieData();
-
-
-
-
-    var chart = new Chart(document.getElementById("graphcanvas").getContext("2d")).Pie(datapie);
-
-}
 
 var get_color = {
     0: '#2882a0',
@@ -134,7 +137,9 @@ var get_color = {
 };
 
 function get_pieData() {
-    PageMethods.getPieValues(211111110, onSuccess, onError);
+    
+    var acctNum = $("#hfAcctNum");
+    PageMethods.getPieValues(acctNum.val(), onSuccess, onError);
 
     var values = [];
     var total = 360;
@@ -161,7 +166,7 @@ function get_pieData() {
         }
 
         var chart = new Chart(document.getElementById("graphcanvas").getContext("2d")).Pie(values);
-
+        
         return values;
     }
     function onError() {

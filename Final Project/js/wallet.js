@@ -1,6 +1,7 @@
 ﻿var desktopModeToggle = false;
 
 window.onload = function () {
+    
     var width = document.documentElement.clientWidth;
     respondToSize(width);
 }
@@ -74,10 +75,10 @@ document.getElementById('budget').onclick = function () {
 }
 
 
+
 document.getElementById('wallet').onclick = function () {
     window.location.href = 'Wallet.aspx';
 }
-
 
 
 
@@ -100,5 +101,4 @@ document.getElementById('wallet_m').onclick = function () {
         collapsed = true;
     }
 }
-
 

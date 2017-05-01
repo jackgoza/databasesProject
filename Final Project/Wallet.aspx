@@ -25,7 +25,7 @@
 						<h4>Your Wallet</h4>
 					</div>
 					<div class="textRight col-xs-4">
-						<asp:Button ID="logOutButton"  CssClass="aspButton" style="background-color: #e1e1e1; color: #006847;" runat="server" Text="Logout" />
+						<asp:Button ID="logOutButton" onClick="logoutClick"  CssClass="aspButton" style="background-color: #e1e1e1; color: #006847;" runat="server" Text="Logout" />
 					</div>
 				</div>
 				<!-- Page Content -->
@@ -51,24 +51,37 @@
 								<asp:Button ID="SearchBtn" CssClass="darkBtn textCenter" runat="server" Text="Search" OnClick="searchTransactions" />
 							</div>
 						</div>
-						<div class="col-xs-12">
-							<!--Need to be able to click these for filtering.-->
-							<div class="col-xs-3">Description</div>
-							<div class="col-xs-2">Amount</div>
-							<div class="col-xs-2">Category</div>
-							<div class="col-xs-3">Date</div>
-							<div class="col-xs-2">Type</div>
-						</div>
-					<asp:ListView ID="TransactionsList"  runat="server">
-						<LayoutTemplate>
-							<div style="overflow:scroll; height: 400px;">
-								<div id="itemPlaceholder" runat="server"></div>
-								
+						<div class="col-xs-12" style="background-color: #006847;">
+							<div class="col-xs-4">
+								<asp:Button ID="DescFilter" CssClass="filterTab" runat="server" Text="Description" OnClick="DescFilter_Click"/>
 							</div>
+							<div class="col-xs-2">
+								<asp:Button ID="AmtFilter" CssClass="filterTab" runat="server" Text="Amount" OnClick="AmtFilter_Click"/>
+							</div>
+							<div class="col-xs-2">
+								<asp:Button ID="CatFilter" CssClass="filterTab" runat="server" Text="Category" OnClick="CatFilter_Click"/>
+							</div>
+							<div class="col-xs-3">
+								<asp:Button ID="DateFilter" CssClass="filterTab" runat="server" Text="Date" OnClick="DateFilter_Click"/>
+							</div>
+							<div class="col-xs-1">
+								<asp:Button ID="TypeFilter" CssClass="filterTab" runat="server" Text="Type" OnClick="TypeFilter_Click"/>
+							</div>
+						</div>
+					<asp:ListView ID="TransactionsList" runat="server">
+						<LayoutTemplate>
+								<div id="itemPlaceholder" runat="server"></div>
+								<asp:DataPager runat="server" ID="TransactionsListDataPager" PageSize="25">
+								<Fields>
+									<asp:NextPreviousPagerField ButtonType="Button" ShowFirstPageButton="False" ShowNextPageButton="False" ShowPreviousPageButton="True" />
+									<asp:NumericPagerField NumericButtonCssClass="dataPagerStyle" />
+									<asp:NextPreviousPagerField ButtonType="Button" ShowLastPageButton="False" ShowNextPageButton="True" ShowPreviousPageButton="False" />
+								</Fields>
+							</asp:DataPager>
 						</LayoutTemplate>
 						<AlternatingItemTemplate>
 							<div class="col-xs-12" style="background-color: #e1e1e1;">
-								<div class="col-xs-3">
+								<div class="col-xs-4">
 									<asp:Label ID="Desc" CssClass="aspLabel" runat="server" Text='<%#Eval("Description") %>' />
 								</div>
 								<div class="col-xs-2">
@@ -76,18 +89,19 @@
 								</div>
 								<div class="col-xs-2">
 									<asp:Label ID="Category" CssClass="aspLabel" runat="server" Text='<%#Eval("Name") %>' />
+									<asp:LinkButton ID="EditCategory" runat="server" CssClass="fltrt" Text="Edit" OnCommand="openModal" CommandArgument='<%#Bind("TransactionID") %>'></asp:LinkButton>
 								</div>
 								<div class="col-xs-3">
-									<asp:Label ID="Date" CssClass="aspLabel" runat="server" Text='<%#Eval("TransDate", "{0:d}") %>' />
+									<asp:Label ID="Date" CssClass="aspLabel" runat="server" Text='<%#Eval("TransDate", "{0:MMM dd, yyyy}") %>' />
 								</div>
-								<div class="col-xs-2">
+								<div class="col-xs-1">
 									<asp:Label ID="Type" CssClass="aspLabel" runat="server" Text='<%#Eval("TransType") %>' />
 								</div>
 							</div>
 						</AlternatingItemTemplate>
 						<ItemTemplate>
 							<div class="col-xs-12" style="background-color: #FFF;">
-								<div class="col-xs-3">
+								<div class="col-xs-4">
 									<asp:Label ID="Desc" CssClass="aspLabel" runat="server" Text='<%#Eval("Description") %>' />
 								</div>
 								<div class="col-xs-2">
@@ -95,40 +109,44 @@
 								</div>
 								<div class="col-xs-2">
 									<asp:Label ID="Category" CssClass="aspLabel" runat="server" Text='<%#Eval("Name") %>' />
+									<asp:LinkButton ID="EditCategory" runat="server" CssClass="fltrt" Text="Edit"  OnCommand="openModal" CommandArgument='<%#Bind("TransactionID") %>'></asp:LinkButton>
 								</div>
 								<div class="col-xs-3">
-									<asp:Label ID="Date" CssClass="aspLabel" runat="server" Text='<%#Eval("TransDate", "{0:d}") %>' />
+									<asp:Label ID="Date" CssClass="aspLabel" runat="server" Text='<%#Eval("TransDate", "{0:MMM dd, yyyy}") %>' />
 								</div>
-								<div class="col-xs-2">
+								<div class="col-xs-1">
 									<asp:Label ID="Type" CssClass="aspLabel" runat="server" Text='<%#Eval("TransType") %>' />
 								</div>
 							</div>
 						</ItemTemplate>
-						<EditItemTemplate>
-							<div class="col-xs-12">
-								<div class="col-xs-3">
-									<asp:Label ID="Desc" CssClass="aspLabel" runat="server" Text='<%#Eval("Description") %>' />
-								</div>
-								<div class="col-xs-2">
-									<asp:Label ID="Amount" CssClass="aspLabel" runat="server" Text='<%#Eval("Deposit", "{0:c}") %>' />
-								</div>
-								<div class="col-xs-2">
-									<asp:DropDownList ID="ChooseCategory" runat="server">
-									</asp:DropDownList>
-								</div>
-								<div class="col-xs-3">
-									<asp:Label ID="Date" CssClass="aspLabel" runat="server" Text='<%#Eval("TransDate", "{0:d}") %>' />
-								</div>
-								<div class="col-xs-2">
-									<asp:Label ID="Type" CssClass="aspLabel" runat="server" Text='<%#Eval("TransType") %>' />
-								</div>
-							</div>
-						</EditItemTemplate>
 					</asp:ListView>
 					<div class="col-xs-12 textRight">
 						<div class="col-xs-10"></div>
 						<div id="desktopMode" class="col-xs-2">Desktop Mode</div>
 					</div>
+		<!-- Change Category Modal -->
+		<div id="changeCategory" class="modal" onclick="" runat="server">
+			<!-- Modal content -->
+			<div class="row modal-content">
+				
+				<div class="col-xs-12">
+					<div class="col-xs-6 textLeft">
+						<h3>Change Category</h3><br />
+					</div>
+					<div class="col-xs-6 textRight">
+						<span class="close">&times;</span>
+					</div>
+				</div>
+				<div class="col-xs-12">
+					<asp:DropDownList ID="ChangeCategoryDD" runat="server"></asp:DropDownList>
+					<asp:TextBox ID="CustomCategory" runat="server"></asp:TextBox>
+				</div>
+				<div class="col-xs-12">
+					<asp:Button ID="submitNewCategory" runat="server" />
+				</div>
+				
+			</div>
+		</div>
 					</div>
 					<div id="mobileNavBottom" class="col-xs-12">
 						

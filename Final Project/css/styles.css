@@ -2,6 +2,10 @@ h1, h2, h3, h4, h5, h6, p {
     font-family: RalewayLight;
 }
 
+.fltrt{
+    float: right;
+}
+
 .aspLabel{
     font-family: RalewayLight;
 }
@@ -52,10 +56,12 @@ a:link{
 
 #mobileNavTop{
     margin-top: .25em;
+    display: none;
 }
 
 #mobileNavBottom{
     margin-top: .25em;
+    display: none;
 }
 
 #pageContent{
@@ -63,6 +69,7 @@ a:link{
 
 #navigation{
     padding-top: .25em;
+    display: none;
 }
 
 #contentHeader{
@@ -93,6 +100,7 @@ a:link{
     margin-right: .25em;
     padding-top: .25em;
     cursor: pointer;
+    border: none;
 }
 
 .tab:hover{
@@ -100,6 +108,28 @@ a:link{
 }
 
 .tab:active{
+    background-color: #00ab75;
+    box-shadow: inset 0px 0px 10px rgba(33, 33, 33, 0.50);
+}
+
+.filterTab{
+    border-radius: 5px 5px 0px 0px;
+	font-family: RalewayExtraLight;
+	color: #FFF;
+	text-align: center;
+	background-color: #006847;
+    margin-bottom: 0em;
+    width: 100%;
+    padding-top: .25em;
+    cursor: pointer;
+    border: none;
+}
+
+.filterTab:hover{
+    background-color: #00ab75;
+}
+
+.filterTab:active{
     background-color: #00ab75;
     box-shadow: inset 0px 0px 10px rgba(33, 33, 33, 0.50);
 }
@@ -179,6 +209,28 @@ a:link{
     border-left: solid;
     border-width: 1px;
     border-color: #b3b3b3;
+}
+
+.helpQ{
+    color: #006847;
+    cursor: pointer;
+}
+
+.helpQ:hover{
+    color: #00ab75;
+    cursor: pointer;
+}
+
+.helpQ:active{
+    color: #006847;
+    cursor: pointer;
+}
+
+.chart-legend li span{
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    margin-right: 5px;
 }
 
 /* The Modal (background) */

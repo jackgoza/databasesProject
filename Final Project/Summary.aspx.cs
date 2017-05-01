@@ -11,29 +11,31 @@ using System.Data;
 public partial class Summary : System.Web.UI.Page
 {
     static int userID;
-    DataSet GoalDS, BudgetDS;
+    DataSet  BudgetDS;
     protected void Page_Load(object sender, EventArgs e)
     {
 
 
-        DataAbstract DA = new DataAbstract();
-        if (Convert.ToInt32(Session["userID"]) != 0)
-        {
-            userID = Convert.ToInt32(Session["userID"]);
-            DataSet accountData = DA.get_Accounts(userID); //gets all accounts
-            System.Data.DataTable accountsTable = accountData.Tables[0]; //table holding all account entries for the user
-            object s = accountsTable.Rows[0].Field<object>("AcctNumber"); //sets the default account to the first of the user's accounts. LIKELY CHANGE LATER.
-            Session["account"] = Convert.ToInt64(s);                        //saves the first account as the default account during the session
-            userID = Convert.ToInt16(Session["userID"]);                    //saves the Session userID to the variable on this page 
-        }
-        else
-        {
-            userID = 1;  //temporary solution for demo 3/19/2017
-            Session["account"] = 211111110;
-        }
+        //DataAbstract DA = new DataAbstract();
+        //if (Convert.ToInt32(Session["userID"]) != 0)
+        //{
+        //    userID = Convert.ToInt32(Session["userID"]);
+        //    DataSet accountData = DA.returnAccounts(userID); //gets all accounts
+        //    System.Data.DataTable accountsTable = accountData.Tables[0]; //table holding all account entries for the user
+        //    object s = accountsTable.Rows[0].Field<object>("AcctNumber"); //sets the default account to the first of the user's accounts. LIKELY CHANGE LATER.
+        //    if (Convert.ToInt32(Session["account"]) == 0) Session["account"] = Convert.ToInt64(s);                        //saves the first account as the default account during the session
+        //    userID = Convert.ToInt16(Session["userID"]);                    //saves the Session userID to the variable on this page 
+        //}
+        //else
+        //{
+        //    userID = 1;  //temporary solution for demo 3/19/2017
+        //    Session["account"] = 211111110;
+        //}
 
-        getPieValues(Convert.ToInt64(Session["account"]));
-        
+        //hfAcctNum.Value = Convert.ToString(Session["account"]);
+        //System.Diagnostics.Debug.WriteLine("page load - " + hfAcctNum.Value);
+    
+
     }
 
     
@@ -43,26 +45,32 @@ public partial class Summary : System.Web.UI.Page
         if (Convert.ToInt32(Session["userID"]) != 0)
         {
             userID = Convert.ToInt32(Session["userID"]);
-            DataSet accountData = DA.get_Accounts(userID); //gets all accounts
+            DataSet accountData = DA.returnAccounts(userID); //gets all accounts
             System.Data.DataTable accountsTable = accountData.Tables[0]; //table holding all account entries for the user
             object s = accountsTable.Rows[0].Field<object>("AcctNumber"); //sets the default account to the first of the user's accounts. LIKELY CHANGE LATER.
-            Session["account"] = Convert.ToInt64(s);                        //saves the first account as the default account during the session
+            if (Session["account"] == null)
+            {
+                Session["account"] = Convert.ToInt64(s);                        //saves the first account as the default account during the session
+            }
             userID = Convert.ToInt16(Session["userID"]);                    //saves the Session userID to the variable on this page 
         }
         else
         {
-            userID = 1;  //temporary solution for demo 3/19/2017
+            Session["userID"] = 1;  //temporary solution for demo 3/19/2017
             Session["account"] = 211111110;
         }
 
-        
+       
 
-        BudgetDS = DA.get_Favorites("Budget", Convert.ToInt64(Session["account"]));
+        BudgetDS = DA.returnFavorites("Budget", Convert.ToInt64(Session["account"]));
 
         //Sets the source for the listview 
 
         FaveBudgetsList.DataSource = BudgetDS;
         FaveBudgetsList.DataBind();
+
+        hfAcctNum.Value = Convert.ToString(Session["account"]);
+        getPieValues(Convert.ToInt64(Session["account"]));
     } 
 
     [WebMethod]
@@ -72,13 +80,13 @@ public partial class Summary : System.Web.UI.Page
         DataAbstract DA = new DataAbstract();
         DateTime DT = System.DateTime.Now;
         DateTime before = DT.AddMonths(-1);
-        DataSet accountData = DA.get_Accounts(userID);
+        DataSet accountData = DA.returnAccounts(userID);
         System.Data.DataTable accountsTable = accountData.Tables[0]; //table holding all account entries for the user
 
         //object accountObject = accountsTable.Rows[0].Field<object>("AcctNumber");
         //long accountNumber = Convert.ToInt64(accountObject);
 
-        DataSet catData = DA.get_Categories(userID);
+        DataSet catData = DA.returnCategories(userID);
         System.Data.DataTable catTable = catData.Tables[0];
         int resLength = catTable.Rows.Count;
         string[,] result = new string[resLength, 3];
@@ -93,9 +101,9 @@ public partial class Summary : System.Web.UI.Page
             string category = Convert.ToString(nameData);
             DateTime start = DateTime.Now.AddMonths(-1);
             DateTime end = DateTime.Now;
-            //double catSum = DA.get_Category_Bound_Spending(catID, account, start, end); //one month span
+            //double catSum = DA.returnTransactionCategoryBoundTotals(catID, account, start, end); //one month span
             //TEMPORARY RANGE WITH USEABLE DATA
-            double catSum = DA.get_Category_Bound_Spending(catID, account, Convert.ToDateTime("1/1/2000"), Convert.ToDateTime("12/12/2024")); //other span
+            double catSum = DA.returnTransactionCategoryBoundTotals(catID, account, Convert.ToDateTime("1/1/2000"), Convert.ToDateTime("12/12/2024")); //other span
             totalTransactions += catSum;
             result[i, 0] = category;
             result[i, 1] = Convert.ToString(catSum);
@@ -133,5 +141,12 @@ public partial class Summary : System.Web.UI.Page
         realVal = realVal - (realVal % 1);
         int result = Convert.ToInt32(realVal);
         return result;
+    }
+    public void logoutClick(Object sender, EventArgs e)
+    {
+        Session["ViewState"] = null;
+        Session["userID"] = null;
+        Session["account"] = null;
+        Response.Redirect("Login.aspx");
     }
 }
