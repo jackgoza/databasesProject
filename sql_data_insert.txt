@@ -1,0 +1,830 @@
+INSERT INTO Accounts (account_type, account_number, trans_date, trans_type, amount, description, category_ID),
+VALUES( Checking , 211111110 , 42676 , DR , 2 , Starbucks , 2 )
+
+INSERT INTO Accounts (account_type, account_number, trans_date, trans_type, amount, description, category_ID),
+VALUES( Checking , 211111110 , 42678 , CR , 800 , Payroll , 7 )
+
+INSERT INTO Accounts (account_type, account_number, trans_date, trans_type, amount, description, category_ID),
+VALUES( Checking , 211111110 , 42681 , DR , 8 , Chipotle , 2 )
+
+INSERT INTO Accounts (account_type, account_number, trans_date, trans_type, amount, description, category_ID),
+VALUES( Checking , 211111110 , 42683 , DR , 10 , ATM , 6 )
+
+INSERT INTO Accounts (account_type, account_number, trans_date, trans_type, amount, description, category_ID),
+VALUES( Checking , 211111110 , 42684 , DR , 32 , Hoolihans , 2 )
+
+INSERT INTO Accounts (account_type, account_number, trans_date, trans_type, amount, description, category_ID),
+VALUES( Checking , 211111110 , 42684 , DR , 100 , KCPL , 1 )
+
+INSERT INTO Accounts (account_type, account_number, trans_date, trans_type, amount, description, category_ID),
+VALUES( Checking , 211111110 , 42684 , DR , 190 , Google Fiber , 1 )
+
+INSERT INTO Accounts (account_type, account_number, trans_date, trans_type, amount, description, category_ID),
+VALUES( Checking , 211111110 , 42689 , DR , 9 , Netflix , 5 )
+
+INSERT INTO Accounts (account_type, account_number, trans_date, trans_type, amount, description, category_ID),
+VALUES( Checking , 211111110 , 42689 , DR , 350 , Rent , 1 )
+
+INSERT INTO Accounts (account_type, account_number, trans_date, trans_type, amount, description, category_ID),
+VALUES( Checking , 211111110 , 42690 , DR , 2 , Starbucks , 2 )
+
+INSERT INTO Accounts (account_type, account_number, trans_date, trans_type, amount, description, category_ID),
+VALUES( Checking , 211111110 , 42692 , CR , 750 , Payroll , 7 )
+
+INSERT INTO Accounts (account_type, account_number, trans_date, trans_type, amount, description, category_ID),
+VALUES( Checking , 211111110 , 42692 , DR , 620 , Commerce Bank Credit Card payment , 1 )
+
+INSERT INTO Accounts (account_type, account_number, trans_date, trans_type, amount, description, category_ID),
+VALUES( Checking , 211111110 , 42693 , DR , 150 , McFaddens , 2 )
+
+INSERT INTO Accounts (account_type, account_number, trans_date, trans_type, amount, description, category_ID),
+VALUES( Checking , 211111110 , 42696 , DR , 100 , Price Chopper , 2 )
+
+INSERT INTO Accounts (account_type, account_number, trans_date, trans_type, amount, description, category_ID),
+VALUES( Checking , 211111110 , 42697 , CR , 50 , Check from friend , 7 )
+
+INSERT INTO Accounts (account_type, account_number, trans_date, trans_type, amount, description, category_ID),
+VALUES( Checking , 211111110 , 42706 , CR , 800 , Payroll , 7 )
+
+INSERT INTO Accounts (account_type, account_number, trans_date, trans_type, amount, description, category_ID),
+VALUES( Checking , 211111110 , 42706 , DR , 9 , Hyvee , 2 )
+
+INSERT INTO Accounts (account_type, account_number, trans_date, trans_type, amount, description, category_ID),
+VALUES( Checking , 211111110 , 42716 , DR , 14 , McFaddens , 2 )
+
+INSERT INTO Accounts (account_type, account_number, trans_date, trans_type, amount, description, category_ID),
+VALUES( Checking , 211111110 , 42717 , DR , 32 , Target , 4 )
+
+INSERT INTO Accounts (account_type, account_number, trans_date, trans_type, amount, description, category_ID),
+VALUES( Checking , 211111110 , 42717 , DR , 100 , KCPL , 1 )
+
+INSERT INTO Accounts (account_type, account_number, trans_date, trans_type, amount, description, category_ID),
+VALUES( Checking , 211111110 , 42720 , CR , 750 , Payroll , 7 )
+
+INSERT INTO Accounts (account_type, account_number, trans_date, trans_type, amount, description, category_ID),
+VALUES( Checking , 211111110 , 42722 , DR , 190 , Google Fiber , 1 )
+
+INSERT INTO Accounts (account_type, account_number, trans_date, trans_type, amount, description, category_ID),
+VALUES( Checking , 211111110 , 42722 , DR , 9 , Netflix , 5 )
+
+INSERT INTO Accounts (account_type, account_number, trans_date, trans_type, amount, description, category_ID),
+VALUES( Checking , 211111110 , 42722 , DR , 350 , Rent , 1 )
+
+INSERT INTO Accounts (account_type, account_number, trans_date, trans_type, amount, description, category_ID),
+VALUES( Checking , 211111110 , 42726 , DR , 6 , Neo's , 2 )
+
+INSERT INTO Accounts (account_type, account_number, trans_date, trans_type, amount, description, category_ID),
+VALUES( Checking , 211111110 , 42726 , DR , 230 , Commerce Bank Credit Card payment , 1 )
+
+INSERT INTO Accounts (account_type, account_number, trans_date, trans_type, amount, description, category_ID),
+VALUES( Checking , 211111110 , 42726 , DR , 100 , Best Buy , 4 )
+
+INSERT INTO Accounts (account_type, account_number, trans_date, trans_type, amount, description, category_ID),
+VALUES( Checking , 211111110 , 42726 , DR , 300 , Pottery Barn , 4 )
+
+INSERT INTO Accounts (account_type, account_number, trans_date, trans_type, amount, description, category_ID),
+VALUES( Checking , 211111110 , 42730 , DR , 23 , The Loft , 5 )
+
+INSERT INTO Accounts (account_type, account_number, trans_date, trans_type, amount, description, category_ID),
+VALUES( Checking , 211111110 , 42730 , DR , 45 , Dave and Busters , 5 )
+
+INSERT INTO Accounts (account_type, account_number, trans_date, trans_type, amount, description, category_ID),
+VALUES( Checking , 211111110 , 42730 , DR , 35 , Bowling , 5 )
+
+INSERT INTO Accounts (account_type, account_number, trans_date, trans_type, amount, description, category_ID),
+VALUES( Checking , 211111110 , 42734 , CR , 800 , Payroll , 7 )
+
+INSERT INTO Accounts (account_type, account_number, trans_date, trans_type, amount, description, category_ID),
+VALUES( Checking , 211111110 , 42735 , DR , 210 , McFaddens , 2 )
+
+INSERT INTO Accounts (account_type, account_number, trans_date, trans_type, amount, description, category_ID),
+VALUES( Checking , 211111110 , 42735 , DR , 18 , Taco Bell , 2 )
+
+INSERT INTO Accounts (account_type, account_number, trans_date, trans_type, amount, description, category_ID),
+VALUES( Checking , 211111110 , 42735 , DR , 45 , QuikTrip , 3 )
+
+INSERT INTO Accounts (account_type, account_number, trans_date, trans_type, amount, description, category_ID),
+VALUES( Checking , 211111110 , 42737 , DR , 130 , KCPL , 1 )
+
+INSERT INTO Accounts (account_type, account_number, trans_date, trans_type, amount, description, category_ID),
+VALUES( Checking , 211111110 , 42737 , DR , 185 , Google Fiber , 1 )
+
+INSERT INTO Accounts (account_type, account_number, trans_date, trans_type, amount, description, category_ID),
+VALUES( Checking , 211111110 , 42739 , DR , 7 , Netflix , 5 )
+
+INSERT INTO Accounts (account_type, account_number, trans_date, trans_type, amount, description, category_ID),
+VALUES( Checking , 211111110 , 42739 , DR , 56 , Price Chopper , 2 )
+
+INSERT INTO Accounts (account_type, account_number, trans_date, trans_type, amount, description, category_ID),
+VALUES( Checking , 211111110 , 42741 , DR , 43 , Price Chopper , 2 )
+
+INSERT INTO Accounts (account_type, account_number, trans_date, trans_type, amount, description, category_ID),
+VALUES( Checking , 211111110 , 42742 , DR , 98 , Target , 4 )
+
+INSERT INTO Accounts (account_type, account_number, trans_date, trans_type, amount, description, category_ID),
+VALUES( Checking , 211111110 , 42744 , DR , 13 , Jose Peppers , 2 )
+
+INSERT INTO Accounts (account_type, account_number, trans_date, trans_type, amount, description, category_ID),
+VALUES( Checking , 211111110 , 42745 , DR , 9 , Starbucks , 2 )
+
+INSERT INTO Accounts (account_type, account_number, trans_date, trans_type, amount, description, category_ID),
+VALUES( Checking , 211111110 , 42747 , DR , 350 , Rent , 1 )
+
+INSERT INTO Accounts (account_type, account_number, trans_date, trans_type, amount, description, category_ID),
+VALUES( Checking , 211111110 , 42747 , DR , 3 , Redbox , 5 )
+
+INSERT INTO Accounts (account_type, account_number, trans_date, trans_type, amount, description, category_ID),
+VALUES( Checking , 211111110 , 42747 , DR , 301 , Bank of America Credit Card payment , 1 )
+
+INSERT INTO Accounts (account_type, account_number, trans_date, trans_type, amount, description, category_ID),
+VALUES( Checking , 211111110 , 42748 , CR , 730 , Payroll , 7 )
+
+INSERT INTO Accounts (account_type, account_number, trans_date, trans_type, amount, description, category_ID),
+VALUES( Checking , 211111110 , 42749 , DR , 232 , Target , 4 )
+
+INSERT INTO Accounts (account_type, account_number, trans_date, trans_type, amount, description, category_ID),
+VALUES( Checking , 211111110 , 42749 , DR , 18 , Best Buy , 4 )
+
+INSERT INTO Accounts (account_type, account_number, trans_date, trans_type, amount, description, category_ID),
+VALUES( Checking , 211111110 , 42751 , DR , 120 , Nationwide , 1 )
+
+INSERT INTO Accounts (account_type, account_number, trans_date, trans_type, amount, description, category_ID),
+VALUES( Checking , 211111110 , 42752 , DR , 50 , KC Police - Speeding Ticket , 6 )
+
+INSERT INTO Accounts (account_type, account_number, trans_date, trans_type, amount, description, category_ID),
+VALUES( Checking , 211111110 , 42752 , DR , 50 , Uber , 3 )
+
+INSERT INTO Accounts (account_type, account_number, trans_date, trans_type, amount, description, category_ID),
+VALUES( Checking , 211111110 , 42752 , DR , 9 , Manny's , 2 )
+
+INSERT INTO Accounts (account_type, account_number, trans_date, trans_type, amount, description, category_ID),
+VALUES( Checking , 211111110 , 42754 , DR , 24 , Toys R Us , 5 )
+
+INSERT INTO Accounts (account_type, account_number, trans_date, trans_type, amount, description, category_ID),
+VALUES( Checking , 211111110 , 42754 , DR , 3 , Scooters , 2 )
+
+INSERT INTO Accounts (account_type, account_number, trans_date, trans_type, amount, description, category_ID),
+VALUES( Checking , 211111110 , 42755 , DR , 36 , QuikTrip , 3 )
+
+INSERT INTO Accounts (account_type, account_number, trans_date, trans_type, amount, description, category_ID),
+VALUES( Checking , 211111110 , 42755 , DR , 32 , Price Chopper , 2 )
+
+INSERT INTO Accounts (account_type, account_number, trans_date, trans_type, amount, description, category_ID),
+VALUES( Checking , 211111110 , 42756 , DR , 48 , Home Depot , 4 )
+
+INSERT INTO Accounts (account_type, account_number, trans_date, trans_type, amount, description, category_ID),
+VALUES( Checking , 211111110 , 42757 , DR , 4 , Burger King , 2 )
+
+INSERT INTO Accounts (account_type, account_number, trans_date, trans_type, amount, description, category_ID),
+VALUES( Checking , 211111110 , 42757 , DR , 45 , Jiffy Lube , 3 )
+
+INSERT INTO Accounts (account_type, account_number, trans_date, trans_type, amount, description, category_ID),
+VALUES( Checking , 211111110 , 42757 , DR , 25 , Doctor visit , 1 )
+
+INSERT INTO Accounts (account_type, account_number, trans_date, trans_type, amount, description, category_ID),
+VALUES( Checking , 211111110 , 42758 , DR , 36 , CVS , 6 )
+
+INSERT INTO Accounts (account_type, account_number, trans_date, trans_type, amount, description, category_ID),
+VALUES( Checking , 211111110 , 42758 , DR , 29 , Price Chopper , 2 )
+
+INSERT INTO Accounts (account_type, account_number, trans_date, trans_type, amount, description, category_ID),
+VALUES( Checking , 211111110 , 42758 , DR , 200 , Transfer to Savings , 8 )
+
+INSERT INTO Accounts (account_type, account_number, trans_date, trans_type, amount, description, category_ID),
+VALUES( Checking , 211111110 , 42758 , CR , 150 , Christmas Check from Grandma , 7 )
+
+INSERT INTO Accounts (account_type, account_number, trans_date, trans_type, amount, description, category_ID),
+VALUES( Checking , 211111110 , 42758 , DR , 250 , Student loans , 1 )
+
+INSERT INTO Accounts (account_type, account_number, trans_date, trans_type, amount, description, category_ID),
+VALUES( Checking , 211111110 , 42758 , DR , 75 , Ford Service , 3 )
+
+INSERT INTO Accounts (account_type, account_number, trans_date, trans_type, amount, description, category_ID),
+VALUES( Checking , 211111110 , 42762 , DR , 36 , Hallmark , 6 )
+
+INSERT INTO Accounts (account_type, account_number, trans_date, trans_type, amount, description, category_ID),
+VALUES( Checking , 211111110 , 42762 , DR , 22 , CVS , 6 )
+
+INSERT INTO Accounts (account_type, account_number, trans_date, trans_type, amount, description, category_ID),
+VALUES( Checking , 211111110 , 42762 , CR , 810 , Payroll , 7 )
+
+INSERT INTO Accounts (account_type, account_number, trans_date, trans_type, amount, description, category_ID),
+VALUES( Checking , 211111110 , 42765 , DR , 180 , Pottery Barn , 4 )
+
+INSERT INTO Accounts (account_type, account_number, trans_date, trans_type, amount, description, category_ID),
+VALUES( Checking , 211111110 , 42765 , DR , 46 , Cheesecake Factory , 2 )
+
+INSERT INTO Accounts (account_type, account_number, trans_date, trans_type, amount, description, category_ID),
+VALUES( Checking , 211111110 , 42765 , DR , 8 , Starbucks , 2 )
+
+INSERT INTO Accounts (account_type, account_number, trans_date, trans_type, amount, description, category_ID),
+VALUES( Credit Card , 3111345029309200 , 42704 , DR , 4 , McDonalds , 2 )
+
+INSERT INTO Accounts (account_type, account_number, trans_date, trans_type, amount, description, category_ID),
+VALUES( Credit Card , 3111345029309200 , 42706 , DR , 23 , Target , 4 )
+
+INSERT INTO Accounts (account_type, account_number, trans_date, trans_type, amount, description, category_ID),
+VALUES( Credit Card , 3111345029309200 , 42706 , DR , 40 , Michaels , 4 )
+
+INSERT INTO Accounts (account_type, account_number, trans_date, trans_type, amount, description, category_ID),
+VALUES( Credit Card , 3111345029309200 , 42710 , DR , 6 , Hyvee , 2 )
+
+INSERT INTO Accounts (account_type, account_number, trans_date, trans_type, amount, description, category_ID),
+VALUES( Credit Card , 3111345029309200 , 42710 , DR , 8 , Panda Express , 2 )
+
+INSERT INTO Accounts (account_type, account_number, trans_date, trans_type, amount, description, category_ID),
+VALUES( Credit Card , 3111345029309200 , 42719 , DR , 12 , Chipotle , 2 )
+
+INSERT INTO Accounts (account_type, account_number, trans_date, trans_type, amount, description, category_ID),
+VALUES( Credit Card , 3111345029309200 , 42720 , DR , 7 , CVS , 6 )
+
+INSERT INTO Accounts (account_type, account_number, trans_date, trans_type, amount, description, category_ID),
+VALUES( Credit Card , 3111345029309200 , 42720 , DR , 6 , Bolings , 2 )
+
+INSERT INTO Accounts (account_type, account_number, trans_date, trans_type, amount, description, category_ID),
+VALUES( Credit Card , 3111345029309200 , 42732 , DR , 5 , Taco Bell , 2 )
+
+INSERT INTO Accounts (account_type, account_number, trans_date, trans_type, amount, description, category_ID),
+VALUES( Credit Card , 3111345029309200 , 42732 , DR , 23 , Margaritas , 2 )
+
+INSERT INTO Accounts (account_type, account_number, trans_date, trans_type, amount, description, category_ID),
+VALUES( Credit Card , 3111345029309200 , 42733 , DR , 10 , Hoolihans , 2 )
+
+INSERT INTO Accounts (account_type, account_number, trans_date, trans_type, amount, description, category_ID),
+VALUES( Credit Card , 3111345029309200 , 42733 , DR , 12 , Gordon Biersch , 2 )
+
+INSERT INTO Accounts (account_type, account_number, trans_date, trans_type, amount, description, category_ID),
+VALUES( Credit Card , 3111345029309200 , 42740 , DR , 11 , Forever 21 , 5 )
+
+INSERT INTO Accounts (account_type, account_number, trans_date, trans_type, amount, description, category_ID),
+VALUES( Credit Card , 3111345029309200 , 42740 , DR , 16 , Lids , 5 )
+
+INSERT INTO Accounts (account_type, account_number, trans_date, trans_type, amount, description, category_ID),
+VALUES( Credit Card , 3111345029309200 , 42740 , DR , 8 , Starbucks , 2 )
+
+INSERT INTO Accounts (account_type, account_number, trans_date, trans_type, amount, description, category_ID),
+VALUES( Credit Card , 3111345029309200 , 42740 , DR , 7 , Dairy Queen , 2 )
+
+INSERT INTO Accounts (account_type, account_number, trans_date, trans_type, amount, description, category_ID),
+VALUES( Credit Card , 3111345029309200 , 42741 , DR , 9 , Mini Golf , 5 )
+
+INSERT INTO Accounts (account_type, account_number, trans_date, trans_type, amount, description, category_ID),
+VALUES( Credit Card , 3111345029309200 , 42752 , DR , 16 , Home Depot , 4 )
+
+INSERT INTO Accounts (account_type, account_number, trans_date, trans_type, amount, description, category_ID),
+VALUES( Credit Card , 3111345029309200 , 42752 , DR , 17 , Walmart  , 4 )
+
+INSERT INTO Accounts (account_type, account_number, trans_date, trans_type, amount, description, category_ID),
+VALUES( Credit Card , 3111345029309200 , 42753 , DR , 10 , Quick Trip , 3 )
+
+INSERT INTO Accounts (account_type, account_number, trans_date, trans_type, amount, description, category_ID),
+VALUES( Credit Card , 3111345029309200 , 42753 , DR , 34 , Quick Trip , 3 )
+
+INSERT INTO Accounts (account_type, account_number, trans_date, trans_type, amount, description, category_ID),
+VALUES( Credit Card , 3111345029309200 , 42754 , DR , 12 , Wings Caf? , 2 )
+
+INSERT INTO Accounts (account_type, account_number, trans_date, trans_type, amount, description, category_ID),
+VALUES( Credit Card , 3111345029309200 , 42755 , DR , 9 , Chipotle , 2 )
+
+INSERT INTO Accounts (account_type, account_number, trans_date, trans_type, amount, description, category_ID),
+VALUES( Credit Card , 3111345029309200 , 42758 , DR , 43 , Bristol , 2 )
+
+INSERT INTO Accounts (account_type, account_number, trans_date, trans_type, amount, description, category_ID),
+VALUES( Credit Card , 3111345029309200 , 42759 , DR , 67 , Tanners , 2 )
+
+INSERT INTO Accounts (account_type, account_number, trans_date, trans_type, amount, description, category_ID),
+VALUES( Credit Card , 3111345029309200 , 42759 , DR , 12 , Kwik Shop , 3 )
+
+INSERT INTO Accounts (account_type, account_number, trans_date, trans_type, amount, description, category_ID),
+VALUES( Credit Card , 3111345029309200 , 42750 , DR , 8 , Burger King , 2 )
+
+INSERT INTO Accounts (account_type, account_number, trans_date, trans_type, amount, description, category_ID),
+VALUES( Credit Card , 3111345029309200 , 42761 , DR , 5 , Dollar Store , 6 )
+
+INSERT INTO Accounts (account_type, account_number, trans_date, trans_type, amount, description, category_ID),
+VALUES( Credit Card , 3111345029309200 , 42762 , DR , 4 , Quick Trip , 3 )
+
+INSERT INTO Accounts (account_type, account_number, trans_date, trans_type, amount, description, category_ID),
+VALUES( Savings , 3011111130 , 42681 , CR , 100 , Refund check  , 7 )
+
+INSERT INTO Accounts (account_type, account_number, trans_date, trans_type, amount, description, category_ID),
+VALUES( Savings , 3011111130 , 43047 , CR , 150 , Payroll , 7 )
+
+INSERT INTO Accounts (account_type, account_number, trans_date, trans_type, amount, description, category_ID),
+VALUES( Savings , 3011111130 , 42704 , CR , 0 , Interest , 7 )
+
+INSERT INTO Accounts (account_type, account_number, trans_date, trans_type, amount, description, category_ID),
+VALUES( Savings , 3011111130 , 42720 , CR , 150 , Payroll , 7 )
+
+INSERT INTO Accounts (account_type, account_number, trans_date, trans_type, amount, description, category_ID),
+VALUES( Savings , 3011111130 , 43087 , DR , 492 , Property taxes , 1 )
+
+INSERT INTO Accounts (account_type, account_number, trans_date, trans_type, amount, description, category_ID),
+VALUES( Savings , 3011111130 , 42735 , CR , 0 , Interest , 7 )
+
+INSERT INTO Accounts (account_type, account_number, trans_date, trans_type, amount, description, category_ID),
+VALUES( Savings , 3011111130 , 42748 , CR , 150 , Payroll , 7 )
+
+INSERT INTO Accounts (account_type, account_number, trans_date, trans_type, amount, description, category_ID),
+VALUES( Checking , 411111111 , 42676 , DR , 200 , Verizon , 1 )
+
+INSERT INTO Accounts (account_type, account_number, trans_date, trans_type, amount, description, category_ID),
+VALUES( Checking , 411111111 , 42676 , DR , 18 , Panda Express , 2 )
+
+INSERT INTO Accounts (account_type, account_number, trans_date, trans_type, amount, description, category_ID),
+VALUES( Checking , 411111111 , 42676 , DR , 64 , CVS , 6 )
+
+INSERT INTO Accounts (account_type, account_number, trans_date, trans_type, amount, description, category_ID),
+VALUES( Checking , 411111111 , 42676 , DR , 122 , Maurices , 6 )
+
+INSERT INTO Accounts (account_type, account_number, trans_date, trans_type, amount, description, category_ID),
+VALUES( Checking , 411111111 , 42676 , DR , 26 , QuikTrip , 3 )
+
+INSERT INTO Accounts (account_type, account_number, trans_date, trans_type, amount, description, category_ID),
+VALUES( Checking , 411111111 , 42678 , DR , 24 , QuikTrip , 3 )
+
+INSERT INTO Accounts (account_type, account_number, trans_date, trans_type, amount, description, category_ID),
+VALUES( Checking , 411111111 , 42681 , DR , 14 , KFC , 2 )
+
+INSERT INTO Accounts (account_type, account_number, trans_date, trans_type, amount, description, category_ID),
+VALUES( Checking , 411111111 , 42681 , DR , 9 , Car wash , 3 )
+
+INSERT INTO Accounts (account_type, account_number, trans_date, trans_type, amount, description, category_ID),
+VALUES( Checking , 411111111 , 42681 , DR , 38 , Dollar General , 6 )
+
+INSERT INTO Accounts (account_type, account_number, trans_date, trans_type, amount, description, category_ID),
+VALUES( Checking , 411111111 , 42681 , DR , 75 , Price Chopper , 2 )
+
+INSERT INTO Accounts (account_type, account_number, trans_date, trans_type, amount, description, category_ID),
+VALUES( Checking , 411111111 , 42682 , DR , 85 , Bank of America Credit Card Payment , 1 )
+
+INSERT INTO Accounts (account_type, account_number, trans_date, trans_type, amount, description, category_ID),
+VALUES( Checking , 411111111 , 42683 , DR , 125 , Doctor , 1 )
+
+INSERT INTO Accounts (account_type, account_number, trans_date, trans_type, amount, description, category_ID),
+VALUES( Checking , 411111111 , 42683 , DR , 35 , QuikTrip , 3 )
+
+INSERT INTO Accounts (account_type, account_number, trans_date, trans_type, amount, description, category_ID),
+VALUES( Checking , 411111111 , 42683 , DR , 24 , Red Robin , 2 )
+
+INSERT INTO Accounts (account_type, account_number, trans_date, trans_type, amount, description, category_ID),
+VALUES( Checking , 411111111 , 42688 , DR , 45 , Doctor , 1 )
+
+INSERT INTO Accounts (account_type, account_number, trans_date, trans_type, amount, description, category_ID),
+VALUES( Checking , 411111111 , 42688 , DR , 10 , Starbucks , 2 )
+
+INSERT INTO Accounts (account_type, account_number, trans_date, trans_type, amount, description, category_ID),
+VALUES( Checking , 411111111 , 42689 , CR , 2000 , Payroll , 7 )
+
+INSERT INTO Accounts (account_type, account_number, trans_date, trans_type, amount, description, category_ID),
+VALUES( Checking , 411111111 , 42689 , DR , 139 , AT&T , 1 )
+
+INSERT INTO Accounts (account_type, account_number, trans_date, trans_type, amount, description, category_ID),
+VALUES( Checking , 411111111 , 42690 , DR , 200 , Transfer to Savings , 6 )
+
+INSERT INTO Accounts (account_type, account_number, trans_date, trans_type, amount, description, category_ID),
+VALUES( Checking , 411111111 , 42690 , DR , 200 , Transfer to another bank , 6 )
+
+INSERT INTO Accounts (account_type, account_number, trans_date, trans_type, amount, description, category_ID),
+VALUES( Checking , 411111111 , 42690 , DR , 25 , Best Buy , 4 )
+
+INSERT INTO Accounts (account_type, account_number, trans_date, trans_type, amount, description, category_ID),
+VALUES( Checking , 411111111 , 42690 , DR , 25 , Target , 4 )
+
+INSERT INTO Accounts (account_type, account_number, trans_date, trans_type, amount, description, category_ID),
+VALUES( Checking , 411111111 , 42690 , DR , 25 , Walmart , 4 )
+
+INSERT INTO Accounts (account_type, account_number, trans_date, trans_type, amount, description, category_ID),
+VALUES( Checking , 411111111 , 42690 , DR , 25 , Amazon , 5 )
+
+INSERT INTO Accounts (account_type, account_number, trans_date, trans_type, amount, description, category_ID),
+VALUES( Checking , 411111111 , 42690 , DR , 100 , KCPL , 1 )
+
+INSERT INTO Accounts (account_type, account_number, trans_date, trans_type, amount, description, category_ID),
+VALUES( Checking , 411111111 , 42691 , DR , 23 , Bristol , 2 )
+
+INSERT INTO Accounts (account_type, account_number, trans_date, trans_type, amount, description, category_ID),
+VALUES( Checking , 411111111 , 42692 , DR , 80 , CVS , 6 )
+
+INSERT INTO Accounts (account_type, account_number, trans_date, trans_type, amount, description, category_ID),
+VALUES( Checking , 411111111 , 42692 , DR , 300 , Rent , 1 )
+
+INSERT INTO Accounts (account_type, account_number, trans_date, trans_type, amount, description, category_ID),
+VALUES( Checking , 411111111 , 42692 , DR , 125 , Airline ticket , 6 )
+
+INSERT INTO Accounts (account_type, account_number, trans_date, trans_type, amount, description, category_ID),
+VALUES( Checking , 411111111 , 42692 , DR , 97 , Maurices , 5 )
+
+INSERT INTO Accounts (account_type, account_number, trans_date, trans_type, amount, description, category_ID),
+VALUES( Checking , 411111111 , 42695 , DR , 41 , Price Chopper , 2 )
+
+INSERT INTO Accounts (account_type, account_number, trans_date, trans_type, amount, description, category_ID),
+VALUES( Checking , 411111111 , 42695 , DR , 86 , Home Depot , 4 )
+
+INSERT INTO Accounts (account_type, account_number, trans_date, trans_type, amount, description, category_ID),
+VALUES( Checking , 411111111 , 42695 , DR , 63 , Bristol , 2 )
+
+INSERT INTO Accounts (account_type, account_number, trans_date, trans_type, amount, description, category_ID),
+VALUES( Checking , 411111111 , 42695 , DR , 494 , Nebraska Furniture Mart , 4 )
+
+INSERT INTO Accounts (account_type, account_number, trans_date, trans_type, amount, description, category_ID),
+VALUES( Checking , 411111111 , 42695 , DR , 328 , State Farm , 1 )
+
+INSERT INTO Accounts (account_type, account_number, trans_date, trans_type, amount, description, category_ID),
+VALUES( Checking , 411111111 , 42696 , DR , 164 , Walmart , 4 )
+
+INSERT INTO Accounts (account_type, account_number, trans_date, trans_type, amount, description, category_ID),
+VALUES( Checking , 411111111 , 42697 , DR , 100 , Doctor , 1 )
+
+INSERT INTO Accounts (account_type, account_number, trans_date, trans_type, amount, description, category_ID),
+VALUES( Checking , 411111111 , 42697 , DR , 32 , Walmart , 4 )
+
+INSERT INTO Accounts (account_type, account_number, trans_date, trans_type, amount, description, category_ID),
+VALUES( Checking , 411111111 , 42699 , DR , 30 , ATM , 6 )
+
+INSERT INTO Accounts (account_type, account_number, trans_date, trans_type, amount, description, category_ID),
+VALUES( Checking , 411111111 , 42699 , DR , 21 , QuikTrip , 3 )
+
+INSERT INTO Accounts (account_type, account_number, trans_date, trans_type, amount, description, category_ID),
+VALUES( Checking , 411111111 , 42702 , DR , 72 , Price Chopper , 2 )
+
+INSERT INTO Accounts (account_type, account_number, trans_date, trans_type, amount, description, category_ID),
+VALUES( Checking , 411111111 , 42702 , DR , 88 , Hobby Lobby , 5 )
+
+INSERT INTO Accounts (account_type, account_number, trans_date, trans_type, amount, description, category_ID),
+VALUES( Checking , 411111111 , 42702 , DR , 42 , Walmart , 4 )
+
+INSERT INTO Accounts (account_type, account_number, trans_date, trans_type, amount, description, category_ID),
+VALUES( Checking , 411111111 , 42703 , DR , 100 , Transfer to Savings , 8 )
+
+INSERT INTO Accounts (account_type, account_number, trans_date, trans_type, amount, description, category_ID),
+VALUES( Checking , 411111111 , 42703 , DR , 100 , Check to sister , 6 )
+
+INSERT INTO Accounts (account_type, account_number, trans_date, trans_type, amount, description, category_ID),
+VALUES( Checking , 411111111 , 42703 , DR , 36 , Brew Top , 2 )
+
+INSERT INTO Accounts (account_type, account_number, trans_date, trans_type, amount, description, category_ID),
+VALUES( Checking , 411111111 , 42704 , CR , 2000 , Payroll , 7 )
+
+INSERT INTO Accounts (account_type, account_number, trans_date, trans_type, amount, description, category_ID),
+VALUES( Checking , 411111111 , 42704 , DR , 300 , Transfer to Savings , 8 )
+
+INSERT INTO Accounts (account_type, account_number, trans_date, trans_type, amount, description, category_ID),
+VALUES( Checking , 411111111 , 42704 , DR , 157 , Verizon , 1 )
+
+INSERT INTO Accounts (account_type, account_number, trans_date, trans_type, amount, description, category_ID),
+VALUES( Checking , 411111111 , 42704 , DR , 100 , AT&T , 1 )
+
+INSERT INTO Accounts (account_type, account_number, trans_date, trans_type, amount, description, category_ID),
+VALUES( Checking , 411111111 , 42704 , DR , 100 , KCPL , 1 )
+
+INSERT INTO Accounts (account_type, account_number, trans_date, trans_type, amount, description, category_ID),
+VALUES( Checking , 411111111 , 42704 , DR , 4 , Starbucks , 2 )
+
+INSERT INTO Accounts (account_type, account_number, trans_date, trans_type, amount, description, category_ID),
+VALUES( Checking , 411111111 , 42705 , DR , 80 , Walmart , 4 )
+
+INSERT INTO Accounts (account_type, account_number, trans_date, trans_type, amount, description, category_ID),
+VALUES( Checking , 411111111 , 42706 , CR , 600 , Check from grandma , 7 )
+
+INSERT INTO Accounts (account_type, account_number, trans_date, trans_type, amount, description, category_ID),
+VALUES( Checking , 411111111 , 42706 , DR , 100 , Transfer to Savings , 8 )
+
+INSERT INTO Accounts (account_type, account_number, trans_date, trans_type, amount, description, category_ID),
+VALUES( Checking , 411111111 , 42706 , DR , 138 , Petsmart , 6 )
+
+INSERT INTO Accounts (account_type, account_number, trans_date, trans_type, amount, description, category_ID),
+VALUES( Checking , 411111111 , 42706 , DR , 40 , ATM , 6 )
+
+INSERT INTO Accounts (account_type, account_number, trans_date, trans_type, amount, description, category_ID),
+VALUES( Checking , 411111111 , 42709 , DR , 110 , Lucky's , 2 )
+
+INSERT INTO Accounts (account_type, account_number, trans_date, trans_type, amount, description, category_ID),
+VALUES( Checking , 411111111 , 42709 , DR , 24 , Denny's   , 2 )
+
+INSERT INTO Accounts (account_type, account_number, trans_date, trans_type, amount, description, category_ID),
+VALUES( Checking , 411111111 , 42710 , DR , 150 , ATM , 6 )
+
+INSERT INTO Accounts (account_type, account_number, trans_date, trans_type, amount, description, category_ID),
+VALUES( Checking , 411111111 , 42711 , DR , 19 , QuikTrip , 3 )
+
+INSERT INTO Accounts (account_type, account_number, trans_date, trans_type, amount, description, category_ID),
+VALUES( Checking , 411111111 , 42713 , DR , 13 , Starbucks , 2 )
+
+INSERT INTO Accounts (account_type, account_number, trans_date, trans_type, amount, description, category_ID),
+VALUES( Checking , 411111111 , 42713 , DR , 55 , Sears , 4 )
+
+INSERT INTO Accounts (account_type, account_number, trans_date, trans_type, amount, description, category_ID),
+VALUES( Checking , 411111111 , 42716 , DR , 50 , Transfer to Savings , 8 )
+
+INSERT INTO Accounts (account_type, account_number, trans_date, trans_type, amount, description, category_ID),
+VALUES( Checking , 411111111 , 42716 , DR , 20 , Jiffy Lube , 3 )
+
+INSERT INTO Accounts (account_type, account_number, trans_date, trans_type, amount, description, category_ID),
+VALUES( Checking , 411111111 , 42716 , DR , 57 , O'Charley's , 2 )
+
+INSERT INTO Accounts (account_type, account_number, trans_date, trans_type, amount, description, category_ID),
+VALUES( Checking , 411111111 , 42716 , DR , 145 , Famous Footwear , 5 )
+
+INSERT INTO Accounts (account_type, account_number, trans_date, trans_type, amount, description, category_ID),
+VALUES( Checking , 411111111 , 42716 , DR , 86 , Target , 4 )
+
+INSERT INTO Accounts (account_type, account_number, trans_date, trans_type, amount, description, category_ID),
+VALUES( Checking , 411111111 , 42716 , DR , 48 , Pizza Hut  , 2 )
+
+INSERT INTO Accounts (account_type, account_number, trans_date, trans_type, amount, description, category_ID),
+VALUES( Checking , 411111111 , 42716 , DR , 191 , Walmart , 4 )
+
+INSERT INTO Accounts (account_type, account_number, trans_date, trans_type, amount, description, category_ID),
+VALUES( Checking , 411111111 , 42717 , DR , 22 , QuikTrip , 3 )
+
+INSERT INTO Accounts (account_type, account_number, trans_date, trans_type, amount, description, category_ID),
+VALUES( Checking , 411111111 , 42719 , CR , 2000 , Payday , 7 )
+
+INSERT INTO Accounts (account_type, account_number, trans_date, trans_type, amount, description, category_ID),
+VALUES( Checking , 411111111 , 42719 , CR , 1500 , Bonus , 7 )
+
+INSERT INTO Accounts (account_type, account_number, trans_date, trans_type, amount, description, category_ID),
+VALUES( Checking , 411111111 , 42720 , DR , 300 , Transfer to Savings , 8 )
+
+INSERT INTO Accounts (account_type, account_number, trans_date, trans_type, amount, description, category_ID),
+VALUES( Checking , 411111111 , 42720 , DR , 25 , Best Buy , 4 )
+
+INSERT INTO Accounts (account_type, account_number, trans_date, trans_type, amount, description, category_ID),
+VALUES( Checking , 411111111 , 42720 , DR , 25 , Target , 4 )
+
+INSERT INTO Accounts (account_type, account_number, trans_date, trans_type, amount, description, category_ID),
+VALUES( Checking , 411111111 , 42720 , DR , 25 , Walmart , 4 )
+
+INSERT INTO Accounts (account_type, account_number, trans_date, trans_type, amount, description, category_ID),
+VALUES( Checking , 411111111 , 42720 , DR , 25 , CVS , 6 )
+
+INSERT INTO Accounts (account_type, account_number, trans_date, trans_type, amount, description, category_ID),
+VALUES( Checking , 411111111 , 42720 , DR , 200 , ATM , 6 )
+
+INSERT INTO Accounts (account_type, account_number, trans_date, trans_type, amount, description, category_ID),
+VALUES( Checking , 411111111 , 42720 , DR , 150 , Amazon , 5 )
+
+INSERT INTO Accounts (account_type, account_number, trans_date, trans_type, amount, description, category_ID),
+VALUES( Checking , 411111111 , 42720 , DR , 142 , Verizon , 1 )
+
+INSERT INTO Accounts (account_type, account_number, trans_date, trans_type, amount, description, category_ID),
+VALUES( Checking , 411111111 , 42720 , DR , 133 , Toys R Us , 5 )
+
+INSERT INTO Accounts (account_type, account_number, trans_date, trans_type, amount, description, category_ID),
+VALUES( Checking , 411111111 , 42720 , DR , 100 , Maurices , 5 )
+
+INSERT INTO Accounts (account_type, account_number, trans_date, trans_type, amount, description, category_ID),
+VALUES( Checking , 411111111 , 42723 , DR , 13 , Panera Bread , 2 )
+
+INSERT INTO Accounts (account_type, account_number, trans_date, trans_type, amount, description, category_ID),
+VALUES( Checking , 411111111 , 42723 , DR , 57 , Buffalo Wild Wings , 2 )
+
+INSERT INTO Accounts (account_type, account_number, trans_date, trans_type, amount, description, category_ID),
+VALUES( Checking , 411111111 , 42723 , DR , 205 , Walmart , 4 )
+
+INSERT INTO Accounts (account_type, account_number, trans_date, trans_type, amount, description, category_ID),
+VALUES( Checking , 411111111 , 42723 , DR , 156 , Walmart , 4 )
+
+INSERT INTO Accounts (account_type, account_number, trans_date, trans_type, amount, description, category_ID),
+VALUES( Checking , 411111111 , 42724 , DR , 10 , Joy Wok , 2 )
+
+INSERT INTO Accounts (account_type, account_number, trans_date, trans_type, amount, description, category_ID),
+VALUES( Checking , 411111111 , 42725 , DR , 125 , Taxes , 1 )
+
+INSERT INTO Accounts (account_type, account_number, trans_date, trans_type, amount, description, category_ID),
+VALUES( Checking , 411111111 , 42725 , DR , 30 , Doctor , 1 )
+
+INSERT INTO Accounts (account_type, account_number, trans_date, trans_type, amount, description, category_ID),
+VALUES( Checking , 411111111 , 42725 , DR , 328 , State Farm , 1 )
+
+INSERT INTO Accounts (account_type, account_number, trans_date, trans_type, amount, description, category_ID),
+VALUES( Checking , 411111111 , 42727 , DR , 350 , Rent , 1 )
+
+INSERT INTO Accounts (account_type, account_number, trans_date, trans_type, amount, description, category_ID),
+VALUES( Checking , 411111111 , 42727 , DR , 159 , KCPL , 1 )
+
+INSERT INTO Accounts (account_type, account_number, trans_date, trans_type, amount, description, category_ID),
+VALUES( Checking , 411111111 , 42731 , DR , 24 , Deposit Eleven , 3 )
+
+INSERT INTO Accounts (account_type, account_number, trans_date, trans_type, amount, description, category_ID),
+VALUES( Checking , 411111111 , 42731 , DR , 27 , Hyvee , 2 )
+
+INSERT INTO Accounts (account_type, account_number, trans_date, trans_type, amount, description, category_ID),
+VALUES( Checking , 411111111 , 42733 , DR , 128 , Price Chopper , 2 )
+
+INSERT INTO Accounts (account_type, account_number, trans_date, trans_type, amount, description, category_ID),
+VALUES( Checking , 411111111 , 42733 , DR , 150 , ATM , 6 )
+
+INSERT INTO Accounts (account_type, account_number, trans_date, trans_type, amount, description, category_ID),
+VALUES( Checking , 411111111 , 42734 , CR , 2000 , Payday , 7 )
+
+INSERT INTO Accounts (account_type, account_number, trans_date, trans_type, amount, description, category_ID),
+VALUES( Checking , 411111111 , 42734 , DR , 2 , Red box , 5 )
+
+INSERT INTO Accounts (account_type, account_number, trans_date, trans_type, amount, description, category_ID),
+VALUES( Checking , 411111111 , 42734 , DR , 41 , Walmart , 4 )
+
+INSERT INTO Accounts (account_type, account_number, trans_date, trans_type, amount, description, category_ID),
+VALUES( Checking , 411111111 , 42734 , DR , 109 , Walmart , 4 )
+
+INSERT INTO Accounts (account_type, account_number, trans_date, trans_type, amount, description, category_ID),
+VALUES( Checking , 411111111 , 42734 , DR , 217 , BoA Credit Card payment , 1 )
+
+INSERT INTO Accounts (account_type, account_number, trans_date, trans_type, amount, description, category_ID),
+VALUES( Checking , 411111111 , 42734 , DR , 100 , Transfer to Savings , 8 )
+
+INSERT INTO Accounts (account_type, account_number, trans_date, trans_type, amount, description, category_ID),
+VALUES( Checking , 411111111 , 42734 , DR , 5 , Maurices , 5 )
+
+INSERT INTO Accounts (account_type, account_number, trans_date, trans_type, amount, description, category_ID),
+VALUES( Checking , 411111111 , 42738 , DR , 40 , ATM , 6 )
+
+INSERT INTO Accounts (account_type, account_number, trans_date, trans_type, amount, description, category_ID),
+VALUES( Checking , 411111111 , 42738 , DR , 70 , Dave and Busters , 5 )
+
+INSERT INTO Accounts (account_type, account_number, trans_date, trans_type, amount, description, category_ID),
+VALUES( Checking , 411111111 , 42738 , DR , 47 , Pizza Ranch , 2 )
+
+INSERT INTO Accounts (account_type, account_number, trans_date, trans_type, amount, description, category_ID),
+VALUES( Checking , 411111111 , 42738 , DR , 163 , Walmart , 4 )
+
+INSERT INTO Accounts (account_type, account_number, trans_date, trans_type, amount, description, category_ID),
+VALUES( Checking , 411111111 , 42739 , DR , 22 , Olive Garden , 2 )
+
+INSERT INTO Accounts (account_type, account_number, trans_date, trans_type, amount, description, category_ID),
+VALUES( Checking , 411111111 , 42739 , DR , 34 , QuikTrip , 3 )
+
+INSERT INTO Accounts (account_type, account_number, trans_date, trans_type, amount, description, category_ID),
+VALUES( Checking , 411111111 , 42740 , DR , 150 , Check to sister , 6 )
+
+INSERT INTO Accounts (account_type, account_number, trans_date, trans_type, amount, description, category_ID),
+VALUES( Checking , 411111111 , 42740 , DR , 10 , Doctor , 1 )
+
+INSERT INTO Accounts (account_type, account_number, trans_date, trans_type, amount, description, category_ID),
+VALUES( Checking , 411111111 , 42740 , DR , 10 , MOD Pizza , 2 )
+
+INSERT INTO Accounts (account_type, account_number, trans_date, trans_type, amount, description, category_ID),
+VALUES( Checking , 411111111 , 42740 , DR , 10 , Best Buy , 4 )
+
+INSERT INTO Accounts (account_type, account_number, trans_date, trans_type, amount, description, category_ID),
+VALUES( Checking , 411111111 , 42740 , DR , 10 , Target , 4 )
+
+INSERT INTO Accounts (account_type, account_number, trans_date, trans_type, amount, description, category_ID),
+VALUES( Checking , 411111111 , 42744 , DR , 23 , O'Reilly's , 3 )
+
+INSERT INTO Accounts (account_type, account_number, trans_date, trans_type, amount, description, category_ID),
+VALUES( Checking , 411111111 , 42744 , DR , 118 , Walmart , 4 )
+
+INSERT INTO Accounts (account_type, account_number, trans_date, trans_type, amount, description, category_ID),
+VALUES( Checking , 411111111 , 42747 , DR , 25 , QuikTrip , 3 )
+
+INSERT INTO Accounts (account_type, account_number, trans_date, trans_type, amount, description, category_ID),
+VALUES( Checking , 411111111 , 42747 , DR , 45 , Walmart , 4 )
+
+INSERT INTO Accounts (account_type, account_number, trans_date, trans_type, amount, description, category_ID),
+VALUES( Checking , 411111111 , 42748 , CR , 2000 , Payroll , 7 )
+
+INSERT INTO Accounts (account_type, account_number, trans_date, trans_type, amount, description, category_ID),
+VALUES( Checking , 411111111 , 42748 , DR , 50 , Transfer to Savings , 8 )
+
+INSERT INTO Accounts (account_type, account_number, trans_date, trans_type, amount, description, category_ID),
+VALUES( Checking , 411111111 , 42748 , DR , 136 , Verizon , 1 )
+
+INSERT INTO Accounts (account_type, account_number, trans_date, trans_type, amount, description, category_ID),
+VALUES( Checking , 411111111 , 42752 , DR , 100 , Transfer to Savings , 8 )
+
+INSERT INTO Accounts (account_type, account_number, trans_date, trans_type, amount, description, category_ID),
+VALUES( Checking , 411111111 , 42752 , DR , 25 , Bravos , 2 )
+
+INSERT INTO Accounts (account_type, account_number, trans_date, trans_type, amount, description, category_ID),
+VALUES( Checking , 411111111 , 42752 , DR , 25 , Starbucks gift card , 2 )
+
+INSERT INTO Accounts (account_type, account_number, trans_date, trans_type, amount, description, category_ID),
+VALUES( Checking , 411111111 , 42752 , DR , 25 , ATM , 6 )
+
+INSERT INTO Accounts (account_type, account_number, trans_date, trans_type, amount, description, category_ID),
+VALUES( Checking , 411111111 , 42752 , DR , 25 , Check to brother , 6 )
+
+INSERT INTO Accounts (account_type, account_number, trans_date, trans_type, amount, description, category_ID),
+VALUES( Checking , 411111111 , 42752 , DR , 24 , Laser Rock , 5 )
+
+INSERT INTO Accounts (account_type, account_number, trans_date, trans_type, amount, description, category_ID),
+VALUES( Checking , 411111111 , 42752 , DR , 102 , Walmart , 4 )
+
+INSERT INTO Accounts (account_type, account_number, trans_date, trans_type, amount, description, category_ID),
+VALUES( Checking , 411111111 , 42752 , DR , 57 , Tanners , 2 )
+
+INSERT INTO Accounts (account_type, account_number, trans_date, trans_type, amount, description, category_ID),
+VALUES( Checking , 411111111 , 42752 , DR , 36 , Price Chopper , 2 )
+
+INSERT INTO Accounts (account_type, account_number, trans_date, trans_type, amount, description, category_ID),
+VALUES( Checking , 411111111 , 42753 , DR , 54 , Bristol , 2 )
+
+INSERT INTO Accounts (account_type, account_number, trans_date, trans_type, amount, description, category_ID),
+VALUES( Checking , 411111111 , 42754 , DR , 328 , State Farm , 1 )
+
+INSERT INTO Accounts (account_type, account_number, trans_date, trans_type, amount, description, category_ID),
+VALUES( Checking , 411111111 , 42754 , DR , 5 , Payment to friend , 6 )
+
+INSERT INTO Accounts (account_type, account_number, trans_date, trans_type, amount, description, category_ID),
+VALUES( Checking , 411111111 , 42755 , DR , 26 , QuikTrip , 3 )
+
+INSERT INTO Accounts (account_type, account_number, trans_date, trans_type, amount, description, category_ID),
+VALUES( Checking , 411111111 , 42758 , DR , 5 , KFC , 2 )
+
+INSERT INTO Accounts (account_type, account_number, trans_date, trans_type, amount, description, category_ID),
+VALUES( Checking , 411111111 , 42758 , DR , 55 , Doctor , 1 )
+
+INSERT INTO Accounts (account_type, account_number, trans_date, trans_type, amount, description, category_ID),
+VALUES( Checking , 411111111 , 42758 , DR , 172 , Best Buy , 4 )
+
+INSERT INTO Accounts (account_type, account_number, trans_date, trans_type, amount, description, category_ID),
+VALUES( Checking , 411111111 , 42758 , DR , 52 , Pizza Hut  , 2 )
+
+INSERT INTO Accounts (account_type, account_number, trans_date, trans_type, amount, description, category_ID),
+VALUES( Checking , 411111111 , 42758 , DR , 60 , Red Lobster , 2 )
+
+INSERT INTO Accounts (account_type, account_number, trans_date, trans_type, amount, description, category_ID),
+VALUES( Checking , 411111111 , 42758 , DR , 58 , QuikTrip , 3 )
+
+INSERT INTO Accounts (account_type, account_number, trans_date, trans_type, amount, description, category_ID),
+VALUES( Checking , 411111111 , 42760 , DR , 72 , Walmart , 4 )
+
+INSERT INTO Accounts (account_type, account_number, trans_date, trans_type, amount, description, category_ID),
+VALUES( Checking , 411111111 , 42761 , DR , 64 , Home Depot , 4 )
+
+INSERT INTO Accounts (account_type, account_number, trans_date, trans_type, amount, description, category_ID),
+VALUES( Checking , 411111111 , 42762 , DR , 2000 , Payday , 7 )
+
+INSERT INTO Accounts (account_type, account_number, trans_date, trans_type, amount, description, category_ID),
+VALUES( Checking , 411111111 , 42762 , DR , 150 , Transfer to Savings , 8 )
+
+INSERT INTO Accounts (account_type, account_number, trans_date, trans_type, amount, description, category_ID),
+VALUES( Checking , 411111111 , 42762 , CR , 200 , Check from mom , 6 )
+
+INSERT INTO Accounts (account_type, account_number, trans_date, trans_type, amount, description, category_ID),
+VALUES( Checking , 411111111 , 42762 , CR , 75 , Cash Deposit , 7 )
+
+INSERT INTO Accounts (account_type, account_number, trans_date, trans_type, amount, description, category_ID),
+VALUES( Checking , 411111111 , 42762 , DR , 29 , QuikTrip , 3 )
+
+INSERT INTO Accounts (account_type, account_number, trans_date, trans_type, amount, description, category_ID),
+VALUES( Checking , 411111111 , 42762 , DR , 100 , Transfer to Savings , 8 )
+
+INSERT INTO Accounts (account_type, account_number, trans_date, trans_type, amount, description, category_ID),
+VALUES( Checking , 411111111 , 42762 , DR , 150 , Nebraska Furniture Mart , 4 )
+
+INSERT INTO Accounts (account_type, account_number, trans_date, trans_type, amount, description, category_ID),
+VALUES( Savings , 8222222228 , 42675 , CR , 25 , Cash Deposit , 7 )
+
+INSERT INTO Accounts (account_type, account_number, trans_date, trans_type, amount, description, category_ID),
+VALUES( Savings , 8222222228 , 42690 , DR , 200 , Transfer from savings , 8 )
+
+INSERT INTO Accounts (account_type, account_number, trans_date, trans_type, amount, description, category_ID),
+VALUES( Savings , 8222222228 , 42690 , CR , 25 , Cash Deposit , 7 )
+
+INSERT INTO Accounts (account_type, account_number, trans_date, trans_type, amount, description, category_ID),
+VALUES( Savings , 8222222228 , 42703 , DR , 100 , Transfer from savings , 8 )
+
+INSERT INTO Accounts (account_type, account_number, trans_date, trans_type, amount, description, category_ID),
+VALUES( Savings , 8222222228 , 42704 , DR , 300 , Transfer from savings , 8 )
+
+INSERT INTO Accounts (account_type, account_number, trans_date, trans_type, amount, description, category_ID),
+VALUES( Savings , 8222222228 , 42704 , CR , 0 , Interest , 7 )
+
+INSERT INTO Accounts (account_type, account_number, trans_date, trans_type, amount, description, category_ID),
+VALUES( Savings , 8222222228 , 42706 , DR , 100 , Transfer from savings , 8 )
+
+INSERT INTO Accounts (account_type, account_number, trans_date, trans_type, amount, description, category_ID),
+VALUES( Savings , 8222222228 , 42716 , DR , 50 , Transfer from savings , 8 )
+
+INSERT INTO Accounts (account_type, account_number, trans_date, trans_type, amount, description, category_ID),
+VALUES( Savings , 8222222228 , 42720 , DR , 300 , Transfer from savings , 8 )
+
+INSERT INTO Accounts (account_type, account_number, trans_date, trans_type, amount, description, category_ID),
+VALUES( Savings , 8222222228 , 42734 , DR , 100 , Transfer from savings , 8 )
+
+INSERT INTO Accounts (account_type, account_number, trans_date, trans_type, amount, description, category_ID),
+VALUES( Savings , 8222222228 , 42734 , CR , 0 , Interest , 7 )
+
+INSERT INTO Accounts (account_type, account_number, trans_date, trans_type, amount, description, category_ID),
+VALUES( Savings , 8222222228 , 42735 , DR , -379 , O'Reilly's , 3 )
+
+INSERT INTO Accounts (account_type, account_number, trans_date, trans_type, amount, description, category_ID),
+VALUES( Savings , 8222222228 , 42740 , CR , 10 , Check Deposit , 7 )
+
+INSERT INTO Accounts (account_type, account_number, trans_date, trans_type, amount, description, category_ID),
+VALUES( Savings , 8222222228 , 42748 , DR , 50 , Transfer from savings , 8 )
+
+INSERT INTO Accounts (account_type, account_number, trans_date, trans_type, amount, description, category_ID),
+VALUES( Savings , 8222222228 , 42752 , DR , 100 , Transfer from savings , 8 )
+
+INSERT INTO Accounts (account_type, account_number, trans_date, trans_type, amount, description, category_ID),
+VALUES( Savings , 8222222228 , 42762 , DR , 150 , Transfer from savings , 8 )
+
+INSERT INTO Accounts (account_type, account_number, trans_date, trans_type, amount, description, category_ID),
+VALUES( Savings , 8222222228 , 42762 , CR , 0 , Interest , 7 )
+
+INSERT INTO Accounts (account_type, account_number, trans_date, trans_type, amount, description, category_ID),
+VALUES( Savings , 8222222228 , 42762 , DR , 100 , Transfer from savings , 8 )
