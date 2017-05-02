@@ -30,8 +30,8 @@ public partial class Budget : System.Web.UI.Page
         }
         else
         {
-            Session["userID"] = 1;  //temporary solution for demo 3/19/2017
-            Session["account"] = 211111110;
+            Session["userID"] = 2;
+            Session["account"] = 411111111;
         }
     }
 
@@ -49,8 +49,8 @@ public partial class Budget : System.Web.UI.Page
         }
         else
         {
-            Session["userID"] = 1;  //temporary solution for demo 3/19/2017
-            Session["account"] = 211111110;
+            Session["userID"] = 2;  
+            Session["account"] = 411111111;
         }
 
         BudgetDS = DA.returnBudgets(Convert.ToInt64(Session["account"]));
@@ -60,6 +60,27 @@ public partial class Budget : System.Web.UI.Page
         BudgetList.DataSource = BudgetDS;
         BudgetList.DataBind();
         //LoadSubjects();
+       
+        DataTable categories = DA.returnCategories(userID).Tables[0];
+        DropDownList DDL = new DropDownList();
+        DDL = CategorySelect;
+        DDL.Items.Insert(0, new ListItem("Select Category", "0"));
+        DDL.DataSource = categories;
+        DDL.DataTextField = "Name";
+        DDL.DataValueField = "CategoryID";
+
+        DDL.DataBind();
+        
+        DataTable accounts = DA.returnAccounts(userID).Tables[0];
+        DropDownList DDL2 = new DropDownList();
+        DDL2 = AccountList;
+        DDL2.Items.Insert(0, new ListItem("Select Account", "0"));
+        DDL2.DataSource = accounts;
+        DDL2.DataTextField = "AcctNumber";
+        DDL2.DataValueField = "AcctNumber";
+
+        DDL2.DataBind();
+
     }
 
     public void ListViewEdit(object sender, ListViewEditEventArgs e)
@@ -112,9 +133,9 @@ public partial class Budget : System.Web.UI.Page
         DDL.DataSource = categories;
         DDL.DataTextField = "Name";
         DDL.DataValueField = "CategoryID";
-       
+
         //DDL.DataBind();
-        
+        DDL.ID = "EditCategorySelect";
 
 
     }

@@ -56,8 +56,8 @@ public partial class Summary : System.Web.UI.Page
         }
         else
         {
-            Session["userID"] = 1;  //temporary solution for demo 3/19/2017
-            Session["account"] = 211111110;
+            Session["userID"] = 2;
+            Session["account"] = 411111111;
         }
 
        

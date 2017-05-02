@@ -71,13 +71,7 @@
 					<asp:ListView ID="TransactionsList" runat="server">
 						<LayoutTemplate>
 								<div id="itemPlaceholder" runat="server"></div>
-								<asp:DataPager runat="server" ID="TransactionsListDataPager" PageSize="25">
-								<Fields>
-									<asp:NextPreviousPagerField ButtonType="Button" ShowFirstPageButton="False" ShowNextPageButton="False" ShowPreviousPageButton="True" />
-									<asp:NumericPagerField NumericButtonCssClass="dataPagerStyle" />
-									<asp:NextPreviousPagerField ButtonType="Button" ShowLastPageButton="False" ShowNextPageButton="True" ShowPreviousPageButton="False" />
-								</Fields>
-							</asp:DataPager>
+								
 						</LayoutTemplate>
 						<AlternatingItemTemplate>
 							<div class="col-xs-12" style="background-color: #e1e1e1;">

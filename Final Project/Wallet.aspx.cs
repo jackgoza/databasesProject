@@ -12,8 +12,8 @@ using System.Web.Services;
 public partial class Wallet : System.Web.UI.Page
 {
     static int userID;
-    DataSet transactions;
-    DataAbstract DA;
+    DataSet transactions = new DataSet();
+    DataAbstract DA = new DataAbstract();
     static Boolean DescFlag;
     static Boolean AmtFlag;
     static Boolean CatFlag;
@@ -57,8 +57,8 @@ public partial class Wallet : System.Web.UI.Page
             }
             else
             {
-                Session["userID"] = 1;  //temporary solution for demo 3/19/2017
-                Session["account"] = 211111110;
+                Session["userID"] = 2;
+                Session["account"] = 411111111;
             }
             // long, datetime, datetime int, int 
             transactions = DA.returnTransactions(Convert.ToInt64(Session["account"]));

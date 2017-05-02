@@ -1228,7 +1228,7 @@ namespace Tester
                 throw new System.ArgumentException("Invalid range", "BudgetID");
             } // end if
 
-            string updateSQL = "UPDATE Budgets SET Favorite = @favor WHERE BudgetID = @budgetID";
+            string updateSQL = "UPDATE Budgets SET Favorite = @favorite WHERE BudgetID = @budgetID";
 
             SqlCommand Cmd = new SqlCommand(updateSQL, connect);
             Cmd.Parameters.AddWithValue("@favorite", favorite);
